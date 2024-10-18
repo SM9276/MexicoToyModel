@@ -1,0 +1,49 @@
+{
+  "HARDWARE": {},
+  "RUN_DETAILS": {
+    "VERSION": "10.000 R07 Gold ",
+    "SIMULATION_DATE": 20241018
+  },
+  "MODEL_DETAILS": {
+    "MODEL_NAME": "Test",
+    "MODEL_DESCRIPTION": "",
+    "CLASS_COUNT": {},
+    "PHASE_STEP_COUNT": {
+      "Preschedule": 1,
+      "ST Schedule": 7
+    },
+    "PHASE_DATE_RANGE": {
+      "Preschedule": {
+        "From": 20230101,
+        "To": 20230107
+      },
+      "ST Schedule": {
+        "From": 20230101,
+        "To": 20230101
+      }
+    },
+    "PHASE_STEP_PERIOD_COUNT": {
+      "Preschedule": 7,
+      "ST Schedule": 24
+    },
+    "PHASE_TASK_SIZE": {
+      "ST Schedule": {
+        "Rows": 72,
+        "Columns": 288,
+        "Integers": 0,
+        "Cones": 0,
+        "Non-Zeros": 360
+      }
+    },
+    "PHASE_TIME": {
+      "PASA": "00:00:01.2233115",
+      "ST-Schedule": "00:00:02.0040663"
+    },
+    "PHASE_PEAK_MEMORY": {
+      "ST Schedule": 203030528
+    },
+    "MODEL_PROPERTIES": {},
+    "MODEL_REPORT_PROPERTIES": {},
+    "MODEL_COMPLETED_TIME": "00:00:08.3857416"
+  }
+}
