@@ -23,7 +23,8 @@
       "Node": 3,
       "Line": 3,
       "DataFile": 5,
-      "Timeslice": 2
+      "Timeslice": 2,
+      "Constraint": 1
     },
     "PHASE_STEP_COUNT": {
       "Preschedule": 1,
@@ -45,19 +46,19 @@
     },
     "PHASE_TASK_SIZE": {
       "ST Schedule": {
-        "Rows": 72,
-        "Columns": 288,
+        "Rows": 108,
+        "Columns": 312,
         "Integers": 0,
         "Cones": 0,
-        "Non-Zeros": 360
+        "Non-Zeros": 432
       }
     },
     "PHASE_TIME": {
-      "PASA": "00:00:01.0093977",
-      "ST-Schedule": "00:00:04.8508366"
+      "PASA": "00:00:00.0124156",
+      "ST-Schedule": "00:00:03.0497236"
     },
     "PHASE_PEAK_MEMORY": {
-      "ST Schedule": 212062208
+      "ST Schedule": 240488448
     },
     "MODEL_PROPERTIES": {
       "System.Generators": {
@@ -65,7 +66,11 @@
         "Max Capacity": 1,
         "Min Stable Level": 1,
         "VO\u0026M Charge": 1,
-        "Rating Factor": 1
+        "Rating Factor": 1,
+        "Price Following": 1
+      },
+      "Generator.Constraints": {
+        "Generation Coefficient": 1
       },
       "System.Fuels": {
         "Price": 1
@@ -84,6 +89,11 @@
       },
       "System.Lines": {
         "Max Flow": 1
+      },
+      "System.Constraints": {
+        "Sense": 1,
+        "RHS Month": 1,
+        "Penalty Price": 1
       },
       "System.Timeslices": {
         "Include": 1
@@ -129,8 +139,12 @@
         "Flow": 1,
         "Export Limit": 1,
         "Import Limit": 1
+      },
+      "System.Constraints": {
+        "Hours Binding": 1,
+        "Price": 1
       }
     },
-    "MODEL_COMPLETED_TIME": "00:00:09.9551628"
+    "MODEL_COMPLETED_TIME": "00:00:04.8160927"
   }
 }

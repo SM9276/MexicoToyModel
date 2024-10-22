@@ -1,7 +1,19 @@
 \ Model Test
 \ LP format - for model browsing. Use MPS format to capture full model detail.
 Minimize
-  100000 NodUSE_BCA_Node{1} + 100000 NodUSE_BCA_Node{2}
+  10 GenLoad_Hydroelectric{1} + 10 GenLoad_Hydroelectric{2}
+   + 10 GenLoad_Hydroelectric{3} + 10 GenLoad_Hydroelectric{4}
+   + 10 GenLoad_Hydroelectric{5} + 10 GenLoad_Hydroelectric{6}
+   + 10 GenLoad_Hydroelectric{7} + 10 GenLoad_Hydroelectric{8}
+   + 10 GenLoad_Hydroelectric{9} + 10 GenLoad_Hydroelectric{10}
+   + 10 GenLoad_Hydroelectric{11} + 10 GenLoad_Hydroelectric{12}
+   + 10 GenLoad_Hydroelectric{13} + 10 GenLoad_Hydroelectric{14}
+   + 10 GenLoad_Hydroelectric{15} + 10 GenLoad_Hydroelectric{16}
+   + 10 GenLoad_Hydroelectric{17} + 10 GenLoad_Hydroelectric{18}
+   + 10 GenLoad_Hydroelectric{19} + 10 GenLoad_Hydroelectric{20}
+   + 10 GenLoad_Hydroelectric{21} + 10 GenLoad_Hydroelectric{22}
+   + 10 GenLoad_Hydroelectric{23} + 10 GenLoad_Hydroelectric{24}
+   + 100000 NodUSE_BCA_Node{1} + 100000 NodUSE_BCA_Node{2}
    + 100000 NodUSE_BCA_Node{3} + 100000 NodUSE_BCA_Node{4}
    + 100000 NodUSE_BCA_Node{5} + 100000 NodUSE_BCA_Node{6}
    + 100000 NodUSE_BCA_Node{7} + 100000 NodUSE_BCA_Node{8}
@@ -49,18 +61,6 @@ Minimize
    + 25 GenLoad_Geothermoelectric{19} + 25 GenLoad_Geothermoelectric{20}
    + 25 GenLoad_Geothermoelectric{21} + 25 GenLoad_Geothermoelectric{22}
    + 25 GenLoad_Geothermoelectric{23} + 25 GenLoad_Geothermoelectric{24}
-   + 10 GenLoad_Hydroelectric{1} + 10 GenLoad_Hydroelectric{2}
-   + 10 GenLoad_Hydroelectric{3} + 10 GenLoad_Hydroelectric{4}
-   + 10 GenLoad_Hydroelectric{5} + 10 GenLoad_Hydroelectric{6}
-   + 10 GenLoad_Hydroelectric{7} + 10 GenLoad_Hydroelectric{8}
-   + 10 GenLoad_Hydroelectric{9} + 10 GenLoad_Hydroelectric{10}
-   + 10 GenLoad_Hydroelectric{11} + 10 GenLoad_Hydroelectric{12}
-   + 10 GenLoad_Hydroelectric{13} + 10 GenLoad_Hydroelectric{14}
-   + 10 GenLoad_Hydroelectric{15} + 10 GenLoad_Hydroelectric{16}
-   + 10 GenLoad_Hydroelectric{17} + 10 GenLoad_Hydroelectric{18}
-   + 10 GenLoad_Hydroelectric{19} + 10 GenLoad_Hydroelectric{20}
-   + 10 GenLoad_Hydroelectric{21} + 10 GenLoad_Hydroelectric{22}
-   + 10 GenLoad_Hydroelectric{23} + 10 GenLoad_Hydroelectric{24}
    + 114.22 GenLoad_internal_combustion{1}
    + 114.22 GenLoad_internal_combustion{2}
    + 114.22 GenLoad_internal_combustion{3}
@@ -138,124 +138,207 @@ Minimize
    + 3 GenLoad_Wind{21} + 3 GenLoad_Wind{22} + 3 GenLoad_Wind{23}
    + 3 GenLoad_Wind{24}
 Subject To
- NodNetInjDef_BCA_Node{1}: NodUSE_BCA_Node{1} + GenLoad_Carboelectric{1}
-   + GenLoad_Combined_Cycle{1} + GenLoad_Geothermoelectric{1}
-   + GenLoad_Hydroelectric{1} + GenLoad_internal_combustion{1}
+ GenMaxEneMonth_Hydroelectric{1}: <= 0
+ GenMaxEneMonth_Hydroelectric{2}: <= 0
+ GenMaxEneMonth_Hydroelectric{3}: <= 0
+ GenMaxEneMonth_Hydroelectric{4}: <= 0
+ GenMaxEneMonth_Hydroelectric{5}: <= 0
+ GenMaxEneMonth_Hydroelectric{6}: <= 0
+ GenMaxEneMonth_Hydroelectric{7}: <= 0
+ GenMaxEneMonth_Hydroelectric{8}: <= 0
+ GenMaxEneMonth_Hydroelectric{9}: <= 0
+ GenMaxEneMonth_Hydroelectric{10}: <= 0
+ GenMaxEneMonth_Hydroelectric{11}: GenMaxEneMonthAct_Hydroelectric{1}
+   + GenMaxEneMonthAct_Hydroelectric{2}
+   + GenMaxEneMonthAct_Hydroelectric{3}
+   + GenMaxEneMonthAct_Hydroelectric{4}
+   + GenMaxEneMonthAct_Hydroelectric{5}
+   + GenMaxEneMonthAct_Hydroelectric{6}
+   + GenMaxEneMonthAct_Hydroelectric{7}
+   + GenMaxEneMonthAct_Hydroelectric{8}
+   + GenMaxEneMonthAct_Hydroelectric{9}
+   + GenMaxEneMonthAct_Hydroelectric{10}
+   + GenMaxEneMonthAct_Hydroelectric{11}
+   + GenMaxEneMonthAct_Hydroelectric{12}
+   + GenMaxEneMonthAct_Hydroelectric{13}
+   + GenMaxEneMonthAct_Hydroelectric{14}
+   + GenMaxEneMonthAct_Hydroelectric{15}
+   + GenMaxEneMonthAct_Hydroelectric{16}
+   + GenMaxEneMonthAct_Hydroelectric{17}
+   + GenMaxEneMonthAct_Hydroelectric{18}
+   + GenMaxEneMonthAct_Hydroelectric{19}
+   + GenMaxEneMonthAct_Hydroelectric{20}
+   + GenMaxEneMonthAct_Hydroelectric{21}
+   + GenMaxEneMonthAct_Hydroelectric{22}
+   + GenMaxEneMonthAct_Hydroelectric{23}
+   + GenMaxEneMonthAct_Hydroelectric{24} <= 166666.6666666667
+ GenMaxEneMonth_Hydroelectric{12}: <= 0
+ GenMaxEneMonthActDef_Hydroelectric{1}:
+   - GenMaxEneMonthAct_Hydroelectric{1} + GenLoad_Hydroelectric{1} = 0
+ GenMaxEneMonthActDef_Hydroelectric{2}:
+   - GenMaxEneMonthAct_Hydroelectric{2} + GenLoad_Hydroelectric{2} = 0
+ GenMaxEneMonthActDef_Hydroelectric{3}:
+   - GenMaxEneMonthAct_Hydroelectric{3} + GenLoad_Hydroelectric{3} = 0
+ GenMaxEneMonthActDef_Hydroelectric{4}:
+   - GenMaxEneMonthAct_Hydroelectric{4} + GenLoad_Hydroelectric{4} = 0
+ GenMaxEneMonthActDef_Hydroelectric{5}:
+   - GenMaxEneMonthAct_Hydroelectric{5} + GenLoad_Hydroelectric{5} = 0
+ GenMaxEneMonthActDef_Hydroelectric{6}:
+   - GenMaxEneMonthAct_Hydroelectric{6} + GenLoad_Hydroelectric{6} = 0
+ GenMaxEneMonthActDef_Hydroelectric{7}:
+   - GenMaxEneMonthAct_Hydroelectric{7} + GenLoad_Hydroelectric{7} = 0
+ GenMaxEneMonthActDef_Hydroelectric{8}:
+   - GenMaxEneMonthAct_Hydroelectric{8} + GenLoad_Hydroelectric{8} = 0
+ GenMaxEneMonthActDef_Hydroelectric{9}:
+   - GenMaxEneMonthAct_Hydroelectric{9} + GenLoad_Hydroelectric{9} = 0
+ GenMaxEneMonthActDef_Hydroelectric{10}:
+   - GenMaxEneMonthAct_Hydroelectric{10} + GenLoad_Hydroelectric{10} = 0
+ GenMaxEneMonthActDef_Hydroelectric{11}:
+   - GenMaxEneMonthAct_Hydroelectric{11} + GenLoad_Hydroelectric{11} = 0
+ GenMaxEneMonthActDef_Hydroelectric{12}:
+   - GenMaxEneMonthAct_Hydroelectric{12} + GenLoad_Hydroelectric{12} = 0
+ GenMaxEneMonthActDef_Hydroelectric{13}:
+   - GenMaxEneMonthAct_Hydroelectric{13} + GenLoad_Hydroelectric{13} = 0
+ GenMaxEneMonthActDef_Hydroelectric{14}:
+   - GenMaxEneMonthAct_Hydroelectric{14} + GenLoad_Hydroelectric{14} = 0
+ GenMaxEneMonthActDef_Hydroelectric{15}:
+   - GenMaxEneMonthAct_Hydroelectric{15} + GenLoad_Hydroelectric{15} = 0
+ GenMaxEneMonthActDef_Hydroelectric{16}:
+   - GenMaxEneMonthAct_Hydroelectric{16} + GenLoad_Hydroelectric{16} = 0
+ GenMaxEneMonthActDef_Hydroelectric{17}:
+   - GenMaxEneMonthAct_Hydroelectric{17} + GenLoad_Hydroelectric{17} = 0
+ GenMaxEneMonthActDef_Hydroelectric{18}:
+   - GenMaxEneMonthAct_Hydroelectric{18} + GenLoad_Hydroelectric{18} = 0
+ GenMaxEneMonthActDef_Hydroelectric{19}:
+   - GenMaxEneMonthAct_Hydroelectric{19} + GenLoad_Hydroelectric{19} = 0
+ GenMaxEneMonthActDef_Hydroelectric{20}:
+   - GenMaxEneMonthAct_Hydroelectric{20} + GenLoad_Hydroelectric{20} = 0
+ GenMaxEneMonthActDef_Hydroelectric{21}:
+   - GenMaxEneMonthAct_Hydroelectric{21} + GenLoad_Hydroelectric{21} = 0
+ GenMaxEneMonthActDef_Hydroelectric{22}:
+   - GenMaxEneMonthAct_Hydroelectric{22} + GenLoad_Hydroelectric{22} = 0
+ GenMaxEneMonthActDef_Hydroelectric{23}:
+   - GenMaxEneMonthAct_Hydroelectric{23} + GenLoad_Hydroelectric{23} = 0
+ GenMaxEneMonthActDef_Hydroelectric{24}:
+   - GenMaxEneMonthAct_Hydroelectric{24} + GenLoad_Hydroelectric{24} = 0
+ NodNetInjDef_BCA_Node{1}: GenLoad_Hydroelectric{1} + NodUSE_BCA_Node{1}
+   + GenLoad_Carboelectric{1} + GenLoad_Combined_Cycle{1}
+   + GenLoad_Geothermoelectric{1} + GenLoad_internal_combustion{1}
    + GenLoad_Nuclear{1} + GenLoad_Solar{1} + GenLoad_Turbogas{1}
    + GenLoad_Vapor{1} + GenLoad_Wind{1} = 1218.657
- NodNetInjDef_BCA_Node{2}: NodUSE_BCA_Node{2} + GenLoad_Carboelectric{2}
-   + GenLoad_Combined_Cycle{2} + GenLoad_Geothermoelectric{2}
-   + GenLoad_Hydroelectric{2} + GenLoad_internal_combustion{2}
+ NodNetInjDef_BCA_Node{2}: GenLoad_Hydroelectric{2} + NodUSE_BCA_Node{2}
+   + GenLoad_Carboelectric{2} + GenLoad_Combined_Cycle{2}
+   + GenLoad_Geothermoelectric{2} + GenLoad_internal_combustion{2}
    + GenLoad_Nuclear{2} + GenLoad_Solar{2} + GenLoad_Turbogas{2}
    + GenLoad_Vapor{2} + GenLoad_Wind{2} = 1177.49
- NodNetInjDef_BCA_Node{3}: NodUSE_BCA_Node{3} + GenLoad_Carboelectric{3}
-   + GenLoad_Combined_Cycle{3} + GenLoad_Geothermoelectric{3}
-   + GenLoad_Hydroelectric{3} + GenLoad_internal_combustion{3}
+ NodNetInjDef_BCA_Node{3}: GenLoad_Hydroelectric{3} + NodUSE_BCA_Node{3}
+   + GenLoad_Carboelectric{3} + GenLoad_Combined_Cycle{3}
+   + GenLoad_Geothermoelectric{3} + GenLoad_internal_combustion{3}
    + GenLoad_Nuclear{3} + GenLoad_Solar{3} + GenLoad_Turbogas{3}
    + GenLoad_Vapor{3} + GenLoad_Wind{3} = 1156.036
- NodNetInjDef_BCA_Node{4}: NodUSE_BCA_Node{4} + GenLoad_Carboelectric{4}
-   + GenLoad_Combined_Cycle{4} + GenLoad_Geothermoelectric{4}
-   + GenLoad_Hydroelectric{4} + GenLoad_internal_combustion{4}
+ NodNetInjDef_BCA_Node{4}: GenLoad_Hydroelectric{4} + NodUSE_BCA_Node{4}
+   + GenLoad_Carboelectric{4} + GenLoad_Combined_Cycle{4}
+   + GenLoad_Geothermoelectric{4} + GenLoad_internal_combustion{4}
    + GenLoad_Nuclear{4} + GenLoad_Solar{4} + GenLoad_Turbogas{4}
    + GenLoad_Vapor{4} + GenLoad_Wind{4} = 1153.275
- NodNetInjDef_BCA_Node{5}: NodUSE_BCA_Node{5} + GenLoad_Carboelectric{5}
-   + GenLoad_Combined_Cycle{5} + GenLoad_Geothermoelectric{5}
-   + GenLoad_Hydroelectric{5} + GenLoad_internal_combustion{5}
+ NodNetInjDef_BCA_Node{5}: GenLoad_Hydroelectric{5} + NodUSE_BCA_Node{5}
+   + GenLoad_Carboelectric{5} + GenLoad_Combined_Cycle{5}
+   + GenLoad_Geothermoelectric{5} + GenLoad_internal_combustion{5}
    + GenLoad_Nuclear{5} + GenLoad_Solar{5} + GenLoad_Turbogas{5}
    + GenLoad_Vapor{5} + GenLoad_Wind{5} = 1175.002
- NodNetInjDef_BCA_Node{6}: NodUSE_BCA_Node{6} + GenLoad_Carboelectric{6}
-   + GenLoad_Combined_Cycle{6} + GenLoad_Geothermoelectric{6}
-   + GenLoad_Hydroelectric{6} + GenLoad_internal_combustion{6}
+ NodNetInjDef_BCA_Node{6}: GenLoad_Hydroelectric{6} + NodUSE_BCA_Node{6}
+   + GenLoad_Carboelectric{6} + GenLoad_Combined_Cycle{6}
+   + GenLoad_Geothermoelectric{6} + GenLoad_internal_combustion{6}
    + GenLoad_Nuclear{6} + GenLoad_Solar{6} + GenLoad_Turbogas{6}
    + GenLoad_Vapor{6} + GenLoad_Wind{6} = 1238.934
- NodNetInjDef_BCA_Node{7}: NodUSE_BCA_Node{7} + GenLoad_Carboelectric{7}
-   + GenLoad_Combined_Cycle{7} + GenLoad_Geothermoelectric{7}
-   + GenLoad_Hydroelectric{7} + GenLoad_internal_combustion{7}
+ NodNetInjDef_BCA_Node{7}: GenLoad_Hydroelectric{7} + NodUSE_BCA_Node{7}
+   + GenLoad_Carboelectric{7} + GenLoad_Combined_Cycle{7}
+   + GenLoad_Geothermoelectric{7} + GenLoad_internal_combustion{7}
    + GenLoad_Nuclear{7} + GenLoad_Solar{7} + GenLoad_Turbogas{7}
    + GenLoad_Vapor{7} + GenLoad_Wind{7} = 1331.602
- NodNetInjDef_BCA_Node{8}: NodUSE_BCA_Node{8} + GenLoad_Carboelectric{8}
-   + GenLoad_Combined_Cycle{8} + GenLoad_Geothermoelectric{8}
-   + GenLoad_Hydroelectric{8} + GenLoad_internal_combustion{8}
+ NodNetInjDef_BCA_Node{8}: GenLoad_Hydroelectric{8} + NodUSE_BCA_Node{8}
+   + GenLoad_Carboelectric{8} + GenLoad_Combined_Cycle{8}
+   + GenLoad_Geothermoelectric{8} + GenLoad_internal_combustion{8}
    + GenLoad_Nuclear{8} + GenLoad_Solar{8} + GenLoad_Turbogas{8}
    + GenLoad_Vapor{8} + GenLoad_Wind{8} = 1471.713
- NodNetInjDef_BCA_Node{9}: NodUSE_BCA_Node{9} + GenLoad_Carboelectric{9}
-   + GenLoad_Combined_Cycle{9} + GenLoad_Geothermoelectric{9}
-   + GenLoad_Hydroelectric{9} + GenLoad_internal_combustion{9}
+ NodNetInjDef_BCA_Node{9}: GenLoad_Hydroelectric{9} + NodUSE_BCA_Node{9}
+   + GenLoad_Carboelectric{9} + GenLoad_Combined_Cycle{9}
+   + GenLoad_Geothermoelectric{9} + GenLoad_internal_combustion{9}
    + GenLoad_Nuclear{9} + GenLoad_Solar{9} + GenLoad_Turbogas{9}
    + GenLoad_Vapor{9} + GenLoad_Wind{9} = 1549.228
- NodNetInjDef_BCA_Node{10}: NodUSE_BCA_Node{10} + GenLoad_Carboelectric{10}
-   + GenLoad_Combined_Cycle{10} + GenLoad_Geothermoelectric{10}
-   + GenLoad_Hydroelectric{10} + GenLoad_internal_combustion{10}
+ NodNetInjDef_BCA_Node{10}: GenLoad_Hydroelectric{10} + NodUSE_BCA_Node{10}
+   + GenLoad_Carboelectric{10} + GenLoad_Combined_Cycle{10}
+   + GenLoad_Geothermoelectric{10} + GenLoad_internal_combustion{10}
    + GenLoad_Nuclear{10} + GenLoad_Solar{10} + GenLoad_Turbogas{10}
    + GenLoad_Vapor{10} + GenLoad_Wind{10} = 1591.768
- NodNetInjDef_BCA_Node{11}: NodUSE_BCA_Node{11} + GenLoad_Carboelectric{11}
-   + GenLoad_Combined_Cycle{11} + GenLoad_Geothermoelectric{11}
-   + GenLoad_Hydroelectric{11} + GenLoad_internal_combustion{11}
+ NodNetInjDef_BCA_Node{11}: GenLoad_Hydroelectric{11} + NodUSE_BCA_Node{11}
+   + GenLoad_Carboelectric{11} + GenLoad_Combined_Cycle{11}
+   + GenLoad_Geothermoelectric{11} + GenLoad_internal_combustion{11}
    + GenLoad_Nuclear{11} + GenLoad_Solar{11} + GenLoad_Turbogas{11}
    + GenLoad_Vapor{11} + GenLoad_Wind{11} = 1639.801
- NodNetInjDef_BCA_Node{12}: NodUSE_BCA_Node{12} + GenLoad_Carboelectric{12}
-   + GenLoad_Combined_Cycle{12} + GenLoad_Geothermoelectric{12}
-   + GenLoad_Hydroelectric{12} + GenLoad_internal_combustion{12}
+ NodNetInjDef_BCA_Node{12}: GenLoad_Hydroelectric{12} + NodUSE_BCA_Node{12}
+   + GenLoad_Carboelectric{12} + GenLoad_Combined_Cycle{12}
+   + GenLoad_Geothermoelectric{12} + GenLoad_internal_combustion{12}
    + GenLoad_Nuclear{12} + GenLoad_Solar{12} + GenLoad_Turbogas{12}
    + GenLoad_Vapor{12} + GenLoad_Wind{12} = 1673.493
- NodNetInjDef_BCA_Node{13}: NodUSE_BCA_Node{13} + GenLoad_Carboelectric{13}
-   + GenLoad_Combined_Cycle{13} + GenLoad_Geothermoelectric{13}
-   + GenLoad_Hydroelectric{13} + GenLoad_internal_combustion{13}
+ NodNetInjDef_BCA_Node{13}: GenLoad_Hydroelectric{13} + NodUSE_BCA_Node{13}
+   + GenLoad_Carboelectric{13} + GenLoad_Combined_Cycle{13}
+   + GenLoad_Geothermoelectric{13} + GenLoad_internal_combustion{13}
    + GenLoad_Nuclear{13} + GenLoad_Solar{13} + GenLoad_Turbogas{13}
    + GenLoad_Vapor{13} + GenLoad_Wind{13} = 1692.956
- NodNetInjDef_BCA_Node{14}: NodUSE_BCA_Node{14} + GenLoad_Carboelectric{14}
-   + GenLoad_Combined_Cycle{14} + GenLoad_Geothermoelectric{14}
-   + GenLoad_Hydroelectric{14} + GenLoad_internal_combustion{14}
+ NodNetInjDef_BCA_Node{14}: GenLoad_Hydroelectric{14} + NodUSE_BCA_Node{14}
+   + GenLoad_Carboelectric{14} + GenLoad_Combined_Cycle{14}
+   + GenLoad_Geothermoelectric{14} + GenLoad_internal_combustion{14}
    + GenLoad_Nuclear{14} + GenLoad_Solar{14} + GenLoad_Turbogas{14}
    + GenLoad_Vapor{14} + GenLoad_Wind{14} = 1719.402
- NodNetInjDef_BCA_Node{15}: NodUSE_BCA_Node{15} + GenLoad_Carboelectric{15}
-   + GenLoad_Combined_Cycle{15} + GenLoad_Geothermoelectric{15}
-   + GenLoad_Hydroelectric{15} + GenLoad_internal_combustion{15}
+ NodNetInjDef_BCA_Node{15}: GenLoad_Hydroelectric{15} + NodUSE_BCA_Node{15}
+   + GenLoad_Carboelectric{15} + GenLoad_Combined_Cycle{15}
+   + GenLoad_Geothermoelectric{15} + GenLoad_internal_combustion{15}
    + GenLoad_Nuclear{15} + GenLoad_Solar{15} + GenLoad_Turbogas{15}
    + GenLoad_Vapor{15} + GenLoad_Wind{15} = 1718.465
- NodNetInjDef_BCA_Node{16}: NodUSE_BCA_Node{16} + GenLoad_Carboelectric{16}
-   + GenLoad_Combined_Cycle{16} + GenLoad_Geothermoelectric{16}
-   + GenLoad_Hydroelectric{16} + GenLoad_internal_combustion{16}
+ NodNetInjDef_BCA_Node{16}: GenLoad_Hydroelectric{16} + NodUSE_BCA_Node{16}
+   + GenLoad_Carboelectric{16} + GenLoad_Combined_Cycle{16}
+   + GenLoad_Geothermoelectric{16} + GenLoad_internal_combustion{16}
    + GenLoad_Nuclear{16} + GenLoad_Solar{16} + GenLoad_Turbogas{16}
    + GenLoad_Vapor{16} + GenLoad_Wind{16} = 1686.75
- NodNetInjDef_BCA_Node{17}: NodUSE_BCA_Node{17} + GenLoad_Carboelectric{17}
-   + GenLoad_Combined_Cycle{17} + GenLoad_Geothermoelectric{17}
-   + GenLoad_Hydroelectric{17} + GenLoad_internal_combustion{17}
+ NodNetInjDef_BCA_Node{17}: GenLoad_Hydroelectric{17} + NodUSE_BCA_Node{17}
+   + GenLoad_Carboelectric{17} + GenLoad_Combined_Cycle{17}
+   + GenLoad_Geothermoelectric{17} + GenLoad_internal_combustion{17}
    + GenLoad_Nuclear{17} + GenLoad_Solar{17} + GenLoad_Turbogas{17}
    + GenLoad_Vapor{17} + GenLoad_Wind{17} = 1678.897
- NodNetInjDef_BCA_Node{18}: NodUSE_BCA_Node{18} + GenLoad_Carboelectric{18}
-   + GenLoad_Combined_Cycle{18} + GenLoad_Geothermoelectric{18}
-   + GenLoad_Hydroelectric{18} + GenLoad_internal_combustion{18}
+ NodNetInjDef_BCA_Node{18}: GenLoad_Hydroelectric{18} + NodUSE_BCA_Node{18}
+   + GenLoad_Carboelectric{18} + GenLoad_Combined_Cycle{18}
+   + GenLoad_Geothermoelectric{18} + GenLoad_internal_combustion{18}
    + GenLoad_Nuclear{18} + GenLoad_Solar{18} + GenLoad_Turbogas{18}
    + GenLoad_Vapor{18} + GenLoad_Wind{18} = 1745.882
- NodNetInjDef_BCA_Node{19}: NodUSE_BCA_Node{19} + GenLoad_Carboelectric{19}
-   + GenLoad_Combined_Cycle{19} + GenLoad_Geothermoelectric{19}
-   + GenLoad_Hydroelectric{19} + GenLoad_internal_combustion{19}
+ NodNetInjDef_BCA_Node{19}: GenLoad_Hydroelectric{19} + NodUSE_BCA_Node{19}
+   + GenLoad_Carboelectric{19} + GenLoad_Combined_Cycle{19}
+   + GenLoad_Geothermoelectric{19} + GenLoad_internal_combustion{19}
    + GenLoad_Nuclear{19} + GenLoad_Solar{19} + GenLoad_Turbogas{19}
    + GenLoad_Vapor{19} + GenLoad_Wind{19} = 1723.459
- NodNetInjDef_BCA_Node{20}: NodUSE_BCA_Node{20} + GenLoad_Carboelectric{20}
-   + GenLoad_Combined_Cycle{20} + GenLoad_Geothermoelectric{20}
-   + GenLoad_Hydroelectric{20} + GenLoad_internal_combustion{20}
+ NodNetInjDef_BCA_Node{20}: GenLoad_Hydroelectric{20} + NodUSE_BCA_Node{20}
+   + GenLoad_Carboelectric{20} + GenLoad_Combined_Cycle{20}
+   + GenLoad_Geothermoelectric{20} + GenLoad_internal_combustion{20}
    + GenLoad_Nuclear{20} + GenLoad_Solar{20} + GenLoad_Turbogas{20}
    + GenLoad_Vapor{20} + GenLoad_Wind{20} = 1728.092
- NodNetInjDef_BCA_Node{21}: NodUSE_BCA_Node{21} + GenLoad_Carboelectric{21}
-   + GenLoad_Combined_Cycle{21} + GenLoad_Geothermoelectric{21}
-   + GenLoad_Hydroelectric{21} + GenLoad_internal_combustion{21}
+ NodNetInjDef_BCA_Node{21}: GenLoad_Hydroelectric{21} + NodUSE_BCA_Node{21}
+   + GenLoad_Carboelectric{21} + GenLoad_Combined_Cycle{21}
+   + GenLoad_Geothermoelectric{21} + GenLoad_internal_combustion{21}
    + GenLoad_Nuclear{21} + GenLoad_Solar{21} + GenLoad_Turbogas{21}
    + GenLoad_Vapor{21} + GenLoad_Wind{21} = 1685.178
- NodNetInjDef_BCA_Node{22}: NodUSE_BCA_Node{22} + GenLoad_Carboelectric{22}
-   + GenLoad_Combined_Cycle{22} + GenLoad_Geothermoelectric{22}
-   + GenLoad_Hydroelectric{22} + GenLoad_internal_combustion{22}
+ NodNetInjDef_BCA_Node{22}: GenLoad_Hydroelectric{22} + NodUSE_BCA_Node{22}
+   + GenLoad_Carboelectric{22} + GenLoad_Combined_Cycle{22}
+   + GenLoad_Geothermoelectric{22} + GenLoad_internal_combustion{22}
    + GenLoad_Nuclear{22} + GenLoad_Solar{22} + GenLoad_Turbogas{22}
    + GenLoad_Vapor{22} + GenLoad_Wind{22} = 1615.383
- NodNetInjDef_BCA_Node{23}: NodUSE_BCA_Node{23} + GenLoad_Carboelectric{23}
-   + GenLoad_Combined_Cycle{23} + GenLoad_Geothermoelectric{23}
-   + GenLoad_Hydroelectric{23} + GenLoad_internal_combustion{23}
+ NodNetInjDef_BCA_Node{23}: GenLoad_Hydroelectric{23} + NodUSE_BCA_Node{23}
+   + GenLoad_Carboelectric{23} + GenLoad_Combined_Cycle{23}
+   + GenLoad_Geothermoelectric{23} + GenLoad_internal_combustion{23}
    + GenLoad_Nuclear{23} + GenLoad_Solar{23} + GenLoad_Turbogas{23}
    + GenLoad_Vapor{23} + GenLoad_Wind{23} = 1535.935
- NodNetInjDef_BCA_Node{24}: NodUSE_BCA_Node{24} + GenLoad_Carboelectric{24}
-   + GenLoad_Combined_Cycle{24} + GenLoad_Geothermoelectric{24}
-   + GenLoad_Hydroelectric{24} + GenLoad_internal_combustion{24}
+ NodNetInjDef_BCA_Node{24}: GenLoad_Hydroelectric{24} + NodUSE_BCA_Node{24}
+   + GenLoad_Carboelectric{24} + GenLoad_Combined_Cycle{24}
+   + GenLoad_Geothermoelectric{24} + GenLoad_internal_combustion{24}
    + GenLoad_Nuclear{24} + GenLoad_Solar{24} + GenLoad_Turbogas{24}
    + GenLoad_Vapor{24} + GenLoad_Wind{24} = 1450.882
  GenPmax_Nuclear{1}: GenLoad_Nuclear{1} - 1608 GenOn_Nuclear{1} <= 0
@@ -307,6 +390,54 @@ Subject To
  GenPmin_Nuclear{23}: GenLoad_Nuclear{23} - 500 GenOn_Nuclear{23} >= 0
  GenPmin_Nuclear{24}: GenLoad_Nuclear{24} - 500 GenOn_Nuclear{24} >= 0
 Bounds
+ GenMaxEneMonthAct_Hydroelectric{1} free
+ GenMaxEneMonthAct_Hydroelectric{2} free
+ GenMaxEneMonthAct_Hydroelectric{3} free
+ GenMaxEneMonthAct_Hydroelectric{4} free
+ GenMaxEneMonthAct_Hydroelectric{5} free
+ GenMaxEneMonthAct_Hydroelectric{6} free
+ GenMaxEneMonthAct_Hydroelectric{7} free
+ GenMaxEneMonthAct_Hydroelectric{8} free
+ GenMaxEneMonthAct_Hydroelectric{9} free
+ GenMaxEneMonthAct_Hydroelectric{10} free
+ GenMaxEneMonthAct_Hydroelectric{11} free
+ GenMaxEneMonthAct_Hydroelectric{12} free
+ GenMaxEneMonthAct_Hydroelectric{13} free
+ GenMaxEneMonthAct_Hydroelectric{14} free
+ GenMaxEneMonthAct_Hydroelectric{15} free
+ GenMaxEneMonthAct_Hydroelectric{16} free
+ GenMaxEneMonthAct_Hydroelectric{17} free
+ GenMaxEneMonthAct_Hydroelectric{18} free
+ GenMaxEneMonthAct_Hydroelectric{19} free
+ GenMaxEneMonthAct_Hydroelectric{20} free
+ GenMaxEneMonthAct_Hydroelectric{21} free
+ GenMaxEneMonthAct_Hydroelectric{22} free
+ GenMaxEneMonthAct_Hydroelectric{23} free
+ GenMaxEneMonthAct_Hydroelectric{24} free
+ GenLoad_Hydroelectric{1} <= 12133
+ GenLoad_Hydroelectric{2} <= 12133
+ GenLoad_Hydroelectric{3} <= 12133
+ GenLoad_Hydroelectric{4} <= 12133
+ GenLoad_Hydroelectric{5} <= 12133
+ GenLoad_Hydroelectric{6} <= 12133
+ GenLoad_Hydroelectric{7} <= 12133
+ GenLoad_Hydroelectric{8} <= 12133
+ GenLoad_Hydroelectric{9} <= 12133
+ GenLoad_Hydroelectric{10} <= 12133
+ GenLoad_Hydroelectric{11} <= 12133
+ GenLoad_Hydroelectric{12} <= 12133
+ GenLoad_Hydroelectric{13} <= 12133
+ GenLoad_Hydroelectric{14} <= 12133
+ GenLoad_Hydroelectric{15} <= 12133
+ GenLoad_Hydroelectric{16} <= 12133
+ GenLoad_Hydroelectric{17} <= 12133
+ GenLoad_Hydroelectric{18} <= 12133
+ GenLoad_Hydroelectric{19} <= 12133
+ GenLoad_Hydroelectric{20} <= 12133
+ GenLoad_Hydroelectric{21} <= 12133
+ GenLoad_Hydroelectric{22} <= 12133
+ GenLoad_Hydroelectric{23} <= 12133
+ GenLoad_Hydroelectric{24} <= 12133
  NodUSE_BCA_Node{1} <= 1218.657
  NodUSE_BCA_Node{2} <= 1177.49
  NodUSE_BCA_Node{3} <= 1156.036
@@ -403,30 +534,6 @@ Bounds
  GenLoad_Geothermoelectric{22} <= 951
  GenLoad_Geothermoelectric{23} <= 951
  GenLoad_Geothermoelectric{24} <= 951
- GenLoad_Hydroelectric{1} <= 12133
- GenLoad_Hydroelectric{2} <= 12133
- GenLoad_Hydroelectric{3} <= 12133
- GenLoad_Hydroelectric{4} <= 12133
- GenLoad_Hydroelectric{5} <= 12133
- GenLoad_Hydroelectric{6} <= 12133
- GenLoad_Hydroelectric{7} <= 12133
- GenLoad_Hydroelectric{8} <= 12133
- GenLoad_Hydroelectric{9} <= 12133
- GenLoad_Hydroelectric{10} <= 12133
- GenLoad_Hydroelectric{11} <= 12133
- GenLoad_Hydroelectric{12} <= 12133
- GenLoad_Hydroelectric{13} <= 12133
- GenLoad_Hydroelectric{14} <= 12133
- GenLoad_Hydroelectric{15} <= 12133
- GenLoad_Hydroelectric{16} <= 12133
- GenLoad_Hydroelectric{17} <= 12133
- GenLoad_Hydroelectric{18} <= 12133
- GenLoad_Hydroelectric{19} <= 12133
- GenLoad_Hydroelectric{20} <= 12133
- GenLoad_Hydroelectric{21} <= 12133
- GenLoad_Hydroelectric{22} <= 12133
- GenLoad_Hydroelectric{23} <= 12133
- GenLoad_Hydroelectric{24} <= 12133
  GenLoad_internal_combustion{1} <= 362
  GenLoad_internal_combustion{2} <= 362
  GenLoad_internal_combustion{3} <= 362
