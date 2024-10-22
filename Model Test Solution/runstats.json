@@ -6,7 +6,7 @@
   },
   "RUN_DETAILS": {
     "VERSION": "10.000 R07 Gold ",
-    "SIMULATION_DATE": 20241021
+    "SIMULATION_DATE": 20241022
   },
   "MODEL_DETAILS": {
     "MODEL_NAME": "Test",
@@ -17,6 +17,8 @@
     "CLASS_COUNT": {
       "System": 1,
       "Generator": 11,
+      "Fuel": 5,
+      "Emission": 1,
       "Region": 1,
       "Node": 3,
       "Line": 3,
@@ -51,11 +53,11 @@
       }
     },
     "PHASE_TIME": {
-      "PASA": "00:00:00.9757518",
-      "ST-Schedule": "00:00:04.1816636"
+      "PASA": "00:00:01.1614190",
+      "ST-Schedule": "00:00:05.6094391"
     },
     "PHASE_PEAK_MEMORY": {
-      "ST Schedule": 206446592
+      "ST Schedule": 211853312
     },
     "MODEL_PROPERTIES": {
       "System.Generators": {
@@ -63,6 +65,15 @@
         "Max Capacity": 1,
         "Min Stable Level": 1,
         "VO\u0026M Charge": 1
+      },
+      "System.Fuels": {
+        "Price": 1
+      },
+      "System.Emissions": {
+        "Shadow Price": 1
+      },
+      "Emission.Fuels": {
+        "Production Rate": 1
       },
       "System.Regions": {
         "Load": 1
@@ -88,6 +99,15 @@
         "Net Revenue": 1,
         "Rating": 1
       },
+      "System.Fuels": {
+        "Price": 1,
+        "Time-weighted Price": 1,
+        "Offtake": 1,
+        "Cost": 1
+      },
+      "System.Emissions": {
+        "Production": 1
+      },
       "System.Regions": {
         "Load": 1,
         "Generation": 1,
@@ -110,6 +130,6 @@
         "Import Limit": 1
       }
     },
-    "MODEL_COMPLETED_TIME": "00:00:09.7758830"
+    "MODEL_COMPLETED_TIME": "00:00:12.3835931"
   }
 }
