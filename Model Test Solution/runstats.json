@@ -22,7 +22,7 @@
       "Region": 1,
       "Node": 3,
       "Line": 3,
-      "DataFile": 3,
+      "DataFile": 4,
       "Timeslice": 2
     },
     "PHASE_STEP_COUNT": {
@@ -53,18 +53,19 @@
       }
     },
     "PHASE_TIME": {
-      "PASA": "00:00:01.1614190",
-      "ST-Schedule": "00:00:05.6094391"
+      "PASA": "00:00:01.2444014",
+      "ST-Schedule": "00:00:06.5723136"
     },
     "PHASE_PEAK_MEMORY": {
-      "ST Schedule": 211853312
+      "ST Schedule": 211259392
     },
     "MODEL_PROPERTIES": {
       "System.Generators": {
         "Units": 1,
         "Max Capacity": 1,
         "Min Stable Level": 1,
-        "VO\u0026M Charge": 1
+        "VO\u0026M Charge": 1,
+        "Rating Factor": 1
       },
       "System.Fuels": {
         "Price": 1
@@ -130,6 +131,6 @@
         "Import Limit": 1
       }
     },
-    "MODEL_COMPLETED_TIME": "00:00:12.3835931"
+    "MODEL_COMPLETED_TIME": "00:00:12.5098543"
   }
 }
