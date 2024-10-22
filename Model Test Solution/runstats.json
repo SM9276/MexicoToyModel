@@ -1,21 +1,36 @@
 {
-  "HARDWARE": {},
+  "HARDWARE": {
+    "PHYSICAL_MEMORY": 17179869184,
+    "CPU_TYPE": "Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz",
+    "CORE_COUNT": 8
+  },
   "RUN_DETAILS": {
     "VERSION": "10.000 R07 Gold ",
-    "SIMULATION_DATE": 20241018
+    "SIMULATION_DATE": 20241021
   },
   "MODEL_DETAILS": {
     "MODEL_NAME": "Test",
     "MODEL_DESCRIPTION": "",
-    "CLASS_COUNT": {},
+    "SOLVER": "Gurobi 11.0.2",
+    "PERIODS_PER_DAY": 24,
+    "PHASES": "STSchedule",
+    "CLASS_COUNT": {
+      "System": 1,
+      "Generator": 11,
+      "Region": 1,
+      "Node": 3,
+      "Line": 3,
+      "DataFile": 3,
+      "Timeslice": 2
+    },
     "PHASE_STEP_COUNT": {
       "Preschedule": 1,
-      "ST Schedule": 7
+      "ST Schedule": 365
     },
     "PHASE_DATE_RANGE": {
       "Preschedule": {
         "From": 20230101,
-        "To": 20230107
+        "To": 20231231
       },
       "ST Schedule": {
         "From": 20230101,
@@ -23,7 +38,7 @@
       }
     },
     "PHASE_STEP_PERIOD_COUNT": {
-      "Preschedule": 7,
+      "Preschedule": 366,
       "ST Schedule": 24
     },
     "PHASE_TASK_SIZE": {
@@ -36,14 +51,65 @@
       }
     },
     "PHASE_TIME": {
-      "PASA": "00:00:01.2233115",
-      "ST-Schedule": "00:00:02.0040663"
+      "PASA": "00:00:00.9757518",
+      "ST-Schedule": "00:00:04.1816636"
     },
     "PHASE_PEAK_MEMORY": {
-      "ST Schedule": 203030528
+      "ST Schedule": 206446592
     },
-    "MODEL_PROPERTIES": {},
-    "MODEL_REPORT_PROPERTIES": {},
-    "MODEL_COMPLETED_TIME": "00:00:08.3857416"
+    "MODEL_PROPERTIES": {
+      "System.Generators": {
+        "Units": 1,
+        "Max Capacity": 1,
+        "Min Stable Level": 1,
+        "VO\u0026M Charge": 1
+      },
+      "System.Regions": {
+        "Load": 1
+      },
+      "System.Nodes": {
+        "Load": 1
+      },
+      "System.Lines": {
+        "Max Flow": 1
+      },
+      "System.Timeslices": {
+        "Include": 1
+      }
+    },
+    "MODEL_REPORT_PROPERTIES": {
+      "System.Generators": {
+        "Generation": 1,
+        "Units Generating": 1,
+        "Generation Cost": 1,
+        "SRMC": 1,
+        "Price Received": 1,
+        "Pool Revenue": 1,
+        "Net Revenue": 1,
+        "Rating": 1
+      },
+      "System.Regions": {
+        "Load": 1,
+        "Generation": 1,
+        "Net Interchange": 1,
+        "Unserved Energy": 1,
+        "Dump Energy": 1,
+        "SRMC": 1,
+        "Price": 1,
+        "Cost to Load": 1,
+        "Generator Pool Revenue": 1,
+        "Settlement Surplus": 1
+      },
+      "System.Nodes": {
+        "Load": 1,
+        "Price": 1
+      },
+      "System.Lines": {
+        "Flow": 1,
+        "Export Limit": 1,
+        "Import Limit": 1
+      }
+    },
+    "MODEL_COMPLETED_TIME": "00:00:09.7758830"
   }
 }
