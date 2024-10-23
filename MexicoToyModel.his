@@ -5,10 +5,623 @@
     <DatabaseNavigationItem>
       <IsExpanded>false</IsExpanded>
       <IsSelected>true</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Model.png</IconSource>
       <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>31</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>1</O_collection_id>
+        <O_class_id>2</O_class_id>
+        <O_class_group_id>2</O_class_group_id>
+        <M_parent_class_id>2</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>31</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>1</P_collection_id>
+        <P_child_class_id>2</P_child_class_id>
+        <P_is_root_node>false</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>180</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds />
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>Max Energy Month</ItemName>
+      <ActiveTab>Property</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_dynamic_off.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>Hydroelectric</ItemName>
+          <ItemKey>31</ItemKey>
+        </DBNavItem>
+        <DBNavItem>
+          <ItemType>Property</ItemType>
+          <ItemTypeName>PropertyItem</ItemTypeName>
+          <ItemTreeSource>tvProps</ItemTreeSource>
+          <ItemName>Max Energy Month</ItemName>
+          <ItemKey>180</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
+        <int>86</int>
+        <int>87</int>
+        <int>88</int>
+        <int>89</int>
+        <int>90</int>
+        <int>91</int>
+        <int>92</int>
+        <int>93</int>
+        <int>94</int>
+        <int>95</int>
+        <int>96</int>
+        <int>97</int>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>31</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvProps</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>31</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>1</O_collection_id>
+        <O_class_id>2</O_class_id>
+        <O_class_group_id>2</O_class_group_id>
+        <M_parent_class_id>2</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>31</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>1</P_collection_id>
+        <P_child_class_id>2</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>50</int>
+          <int>51</int>
+          <int>52</int>
+          <int>55</int>
+          <int>57</int>
+          <int>62</int>
+          <int>82</int>
+          <int>155</int>
+          <int>180</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds />
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>Hydroelectric</ItemName>
+      <ActiveTab>Object</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Generator.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>Hydroelectric</ItemName>
+          <ItemKey>31</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
+        <int>1</int>
+        <int>3</int>
+        <int>50</int>
+        <int>51</int>
+        <int>52</int>
+        <int>55</int>
+        <int>57</int>
+        <int>62</int>
+        <int>82</int>
+        <int>155</int>
+        <int>9</int>
+        <int>180</int>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>31</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSys</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>25</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>1</O_collection_id>
+        <O_class_id>2</O_class_id>
+        <O_class_group_id>2</O_class_group_id>
+        <M_parent_class_id>2</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>25</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>1</P_collection_id>
+        <P_child_class_id>2</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>50</int>
+          <int>51</int>
+          <int>52</int>
+          <int>55</int>
+          <int>57</int>
+          <int>62</int>
+          <int>82</int>
+          <int>155</int>
+          <int>180</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds />
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>internal combustion</ItemName>
+      <ActiveTab>Object</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Generator.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>internal combustion</ItemName>
+          <ItemKey>25</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
+        <int>1</int>
+        <int>3</int>
+        <int>50</int>
+        <int>51</int>
+        <int>52</int>
+        <int>55</int>
+        <int>57</int>
+        <int>62</int>
+        <int>82</int>
+        <int>155</int>
+        <int>9</int>
+        <int>180</int>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>25</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSys</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>29</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>1</O_collection_id>
+        <O_class_id>2</O_class_id>
+        <O_class_group_id>2</O_class_group_id>
+        <M_parent_class_id>2</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>29</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>1</P_collection_id>
+        <P_child_class_id>2</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>50</int>
+          <int>51</int>
+          <int>52</int>
+          <int>55</int>
+          <int>57</int>
+          <int>62</int>
+          <int>82</int>
+          <int>155</int>
+          <int>180</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds />
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>Nuclear</ItemName>
+      <ActiveTab>Object</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Generator.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>Nuclear</ItemName>
+          <ItemKey>29</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
+        <int>1</int>
+        <int>3</int>
+        <int>50</int>
+        <int>51</int>
+        <int>52</int>
+        <int>55</int>
+        <int>57</int>
+        <int>62</int>
+        <int>82</int>
+        <int>155</int>
+        <int>9</int>
+        <int>180</int>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>29</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSys</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>35</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>718</O_collection_id>
+        <O_class_id>74</O_class_id>
+        <O_class_group_id>11</O_class_group_id>
+        <M_parent_class_id>74</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>35</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>718</P_collection_id>
+        <P_child_class_id>74</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>4450</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds>
+          <int>61</int>
+        </AttributeFilterIds>
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>SIN</ItemName>
+      <ActiveTab>Object</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_DataFile.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>SIN</ItemName>
+          <ItemKey>35</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems />
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>35</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSys</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>79</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>718</O_collection_id>
+        <O_class_id>74</O_class_id>
+        <O_class_group_id>11</O_class_group_id>
+        <M_parent_class_id>74</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>79</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>718</P_collection_id>
+        <P_child_class_id>74</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>4450</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds>
+          <int>61</int>
+        </AttributeFilterIds>
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>Sun</ItemName>
+      <ActiveTab>Membership</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_DataFile.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>Sun</ItemName>
+          <ItemKey>79</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
+        <int>61</int>
+        <int>4450</int>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>79</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSys</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>35</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>718</O_collection_id>
+        <O_class_id>74</O_class_id>
+        <O_class_group_id>11</O_class_group_id>
+        <M_parent_class_id>74</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>35</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>718</P_collection_id>
+        <P_child_class_id>74</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>4450</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds>
+          <int>61</int>
+        </AttributeFilterIds>
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>SIN</ItemName>
+      <ActiveTab>Membership</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_DataFile.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>SIN</ItemName>
+          <ItemKey>35</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems />
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>35</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSys</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>37</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>718</O_collection_id>
+        <O_class_id>74</O_class_id>
+        <O_class_group_id>11</O_class_group_id>
+        <M_parent_class_id>74</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>37</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>718</P_collection_id>
+        <P_child_class_id>74</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>4450</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds>
+          <int>61</int>
+        </AttributeFilterIds>
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>BCS</ItemName>
+      <ActiveTab>Membership</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_DataFile.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>BCS</ItemName>
+          <ItemKey>37</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
+        <int>61</int>
+        <int>4450</int>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>37</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSys</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>36</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>718</O_collection_id>
+        <O_class_id>74</O_class_id>
+        <O_class_group_id>11</O_class_group_id>
+        <M_parent_class_id>74</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>36</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>718</P_collection_id>
+        <P_child_class_id>74</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>4450</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds>
+          <int>61</int>
+        </AttributeFilterIds>
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>BCA</ItemName>
+      <ActiveTab>Membership</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_DataFile.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>BCA</ItemName>
+          <ItemKey>36</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
+        <int>61</int>
+        <int>4450</int>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>36</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSys</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
       <ItemFilterInfo>
         <O_object_id>78</O_object_id>
         <O_category_id>0</O_category_id>
@@ -46,13 +659,14 @@
           <int>97</int>
         </AttributeFilterIds>
         <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
       </ItemFilterInfo>
       <ItemName>Test_Shawdow</ItemName>
-      <ActiveTab>Property</ActiveTab>
+      <ActiveTab>Membership</ActiveTab>
       <IsFiltered>false</IsFiltered>
       <IsNotFilter>false</IsNotFilter>
       <ObjectTree>tvSim</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Model.png</IconSource>
       <DBNavItems>
         <DBNavItem>
           <ItemType>Object</ItemType>
@@ -62,6 +676,7 @@
           <ItemKey>78</ItemKey>
         </DBNavItem>
       </DBNavItems>
+      <DBItemActions />
       <ActiveWin>None</ActiveWin>
       <ActiveWinTab>0</ActiveWinTab>
       <PropertyTreeSelectedItems>
@@ -86,1138 +701,8 @@
     <DatabaseNavigationItem>
       <IsExpanded>false</IsExpanded>
       <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_dynamic_off.png</IconSource>
       <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>32</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>1</O_collection_id>
-        <O_class_id>2</O_class_id>
-        <O_class_group_id>2</O_class_group_id>
-        <M_parent_class_id>2</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>32</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>1</P_parent_class_id>
-        <P_collection_id>1</P_collection_id>
-        <P_child_class_id>2</P_child_class_id>
-        <P_is_root_node>false</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds>
-          <int>82</int>
-        </PropertyFilterIds>
-        <AttributeFilterIds />
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Solar.Rating Factor</ItemName>
-      <ActiveTab>Property</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Solar</ItemName>
-          <ItemKey>32</ItemKey>
-        </DBNavItem>
-        <DBNavItem>
-          <ItemType>Property</ItemType>
-          <ItemTypeName>PropertyItem</ItemTypeName>
-          <ItemTreeSource>tvProps</ItemTreeSource>
-          <ItemName>Rating Factor</ItemName>
-          <ItemKey>82</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems>
-        <int>1</int>
-        <int>3</int>
-        <int>50</int>
-        <int>51</int>
-        <int>52</int>
-        <int>55</int>
-        <int>57</int>
-        <int>62</int>
-        <int>82</int>
-      </PropertyTreeSelectedItems>
-      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
-      <ObjectTreeItemID>32</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvProps</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
       <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Generator.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>32</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>1</O_collection_id>
-        <O_class_id>2</O_class_id>
-        <O_class_group_id>2</O_class_group_id>
-        <M_parent_class_id>2</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>32</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>1</P_parent_class_id>
-        <P_collection_id>1</P_collection_id>
-        <P_child_class_id>2</P_child_class_id>
-        <P_is_root_node>false</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds>
-          <int>82</int>
-        </PropertyFilterIds>
-        <AttributeFilterIds />
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Solar</ItemName>
-      <ActiveTab>Property</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Solar</ItemName>
-          <ItemKey>32</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems>
-        <int>1</int>
-        <int>3</int>
-        <int>50</int>
-        <int>51</int>
-        <int>52</int>
-        <int>55</int>
-        <int>57</int>
-        <int>62</int>
-        <int>82</int>
-      </PropertyTreeSelectedItems>
-      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
-      <ObjectTreeItemID>32</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_DataFile.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>79</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>718</O_collection_id>
-        <O_class_id>74</O_class_id>
-        <O_class_group_id>11</O_class_group_id>
-        <M_parent_class_id>74</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>79</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>1</P_parent_class_id>
-        <P_collection_id>718</P_collection_id>
-        <P_child_class_id>74</P_child_class_id>
-        <P_is_root_node>true</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds>
-          <int>4450</int>
-        </PropertyFilterIds>
-        <AttributeFilterIds>
-          <int>61</int>
-        </AttributeFilterIds>
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Sun</ItemName>
-      <ActiveTab>Property</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Sun</ItemName>
-          <ItemKey>79</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems>
-        <int>61</int>
-        <int>4450</int>
-      </PropertyTreeSelectedItems>
-      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
-      <ObjectTreeItemID>79</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_DataFile.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>79</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>718</O_collection_id>
-        <O_class_id>74</O_class_id>
-        <O_class_group_id>11</O_class_group_id>
-        <M_parent_class_id>74</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>79</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>1</P_parent_class_id>
-        <P_collection_id>718</P_collection_id>
-        <P_child_class_id>74</P_child_class_id>
-        <P_is_root_node>true</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds>
-          <int>4450</int>
-        </PropertyFilterIds>
-        <AttributeFilterIds>
-          <int>61</int>
-        </AttributeFilterIds>
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Sun</ItemName>
-      <ActiveTab>Membership</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Sun</ItemName>
-          <ItemKey>79</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems>
-        <int>61</int>
-        <int>4450</int>
-      </PropertyTreeSelectedItems>
-      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
-      <ObjectTreeItemID>79</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Fuel.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>68</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>40</O_collection_id>
-        <O_class_id>4</O_class_id>
-        <O_class_group_id>2</O_class_group_id>
-        <M_parent_class_id>4</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>68</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>1</P_parent_class_id>
-        <P_collection_id>40</P_collection_id>
-        <P_child_class_id>4</P_child_class_id>
-        <P_is_root_node>true</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds>
-          <int>572</int>
-          <int>1219</int>
-        </PropertyFilterIds>
-        <AttributeFilterIds>
-          <int>3</int>
-          <int>4</int>
-        </AttributeFilterIds>
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Coal</ItemName>
-      <ActiveTab>Object</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Coal</ItemName>
-          <ItemKey>68</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems>
-        <int>40</int>
-        <int>3</int>
-        <int>4</int>
-        <int>572</int>
-        <int>1219</int>
-      </PropertyTreeSelectedItems>
-      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
-      <ObjectTreeItemID>68</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Fuel.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>71</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>40</O_collection_id>
-        <O_class_id>4</O_class_id>
-        <O_class_group_id>2</O_class_group_id>
-        <M_parent_class_id>4</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>71</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>1</P_parent_class_id>
-        <P_collection_id>40</P_collection_id>
-        <P_child_class_id>4</P_child_class_id>
-        <P_is_root_node>true</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds>
-          <int>572</int>
-          <int>1219</int>
-        </PropertyFilterIds>
-        <AttributeFilterIds>
-          <int>3</int>
-          <int>4</int>
-        </AttributeFilterIds>
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Diesel</ItemName>
-      <ActiveTab>Membership</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Diesel</ItemName>
-          <ItemKey>71</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems>
-        <int>40</int>
-        <int>3</int>
-        <int>4</int>
-        <int>572</int>
-        <int>1219</int>
-      </PropertyTreeSelectedItems>
-      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
-      <ObjectTreeItemID>71</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Fuel.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>68</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>40</O_collection_id>
-        <O_class_id>4</O_class_id>
-        <O_class_group_id>2</O_class_group_id>
-        <M_parent_class_id>4</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>68</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>1</P_parent_class_id>
-        <P_collection_id>40</P_collection_id>
-        <P_child_class_id>4</P_child_class_id>
-        <P_is_root_node>true</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds>
-          <int>572</int>
-          <int>1219</int>
-        </PropertyFilterIds>
-        <AttributeFilterIds>
-          <int>3</int>
-          <int>4</int>
-        </AttributeFilterIds>
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Coal</ItemName>
-      <ActiveTab>Membership</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Coal</ItemName>
-          <ItemKey>68</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems>
-        <int>40</int>
-        <int>3</int>
-        <int>4</int>
-        <int>572</int>
-        <int>1219</int>
-      </PropertyTreeSelectedItems>
-      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
-      <ObjectTreeItemID>68</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_folder_closed.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>0</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>1</O_collection_id>
-        <O_class_id>2</O_class_id>
-        <O_class_group_id>2</O_class_group_id>
-        <M_parent_class_id>2</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>0</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>1</P_parent_class_id>
-        <P_collection_id>1</P_collection_id>
-        <P_child_class_id>2</P_child_class_id>
-        <P_is_root_node>true</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds>
-          <int>50</int>
-          <int>51</int>
-          <int>52</int>
-          <int>55</int>
-          <int>57</int>
-          <int>62</int>
-        </PropertyFilterIds>
-        <AttributeFilterIds />
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Generators</ItemName>
-      <ActiveTab>Membership</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>CollectionItem_ObjectTree</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Generators</ItemName>
-          <ItemKey>1</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems>
-        <int>1</int>
-        <int>3</int>
-        <int>50</int>
-        <int>51</int>
-        <int>52</int>
-        <int>55</int>
-        <int>57</int>
-        <int>62</int>
-      </PropertyTreeSelectedItems>
-      <ObjectTreeItemType>CollectionItem_ObjectTree</ObjectTreeItemType>
-      <ObjectTreeItemID>1</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_folder_closed.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>0</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>40</O_collection_id>
-        <O_class_id>4</O_class_id>
-        <O_class_group_id>2</O_class_group_id>
-        <M_parent_class_id>4</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>0</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>1</P_parent_class_id>
-        <P_collection_id>40</P_collection_id>
-        <P_child_class_id>4</P_child_class_id>
-        <P_is_root_node>true</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds>
-          <int>572</int>
-          <int>1219</int>
-        </PropertyFilterIds>
-        <AttributeFilterIds>
-          <int>3</int>
-          <int>4</int>
-        </AttributeFilterIds>
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Fuels</ItemName>
-      <ActiveTab>Membership</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>CollectionItem_ObjectTree</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Fuels</ItemName>
-          <ItemKey>40</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems>
-        <int>40</int>
-        <int>3</int>
-        <int>4</int>
-        <int>572</int>
-        <int>1219</int>
-      </PropertyTreeSelectedItems>
-      <ObjectTreeItemType>CollectionItem_ObjectTree</ObjectTreeItemType>
-      <ObjectTreeItemID>40</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_folder_closed.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>0</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>718</O_collection_id>
-        <O_class_id>74</O_class_id>
-        <O_class_group_id>11</O_class_group_id>
-        <M_parent_class_id>74</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>0</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>1</P_parent_class_id>
-        <P_collection_id>718</P_collection_id>
-        <P_child_class_id>74</P_child_class_id>
-        <P_is_root_node>true</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds>
-          <int>4450</int>
-        </PropertyFilterIds>
-        <AttributeFilterIds>
-          <int>61</int>
-        </AttributeFilterIds>
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Data Files</ItemName>
-      <ActiveTab>Membership</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>CollectionItem_ObjectTree</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Data Files</ItemName>
-          <ItemKey>718</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems>
-        <int>61</int>
-        <int>4450</int>
-      </PropertyTreeSelectedItems>
-      <ObjectTreeItemType>CollectionItem_ObjectTree</ObjectTreeItemType>
-      <ObjectTreeItemID>718</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_folder_open.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>0</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>726</O_collection_id>
-        <O_class_id>76</O_class_id>
-        <O_class_group_id>11</O_class_group_id>
-        <M_parent_class_id>76</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>0</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>1</P_parent_class_id>
-        <P_collection_id>726</P_collection_id>
-        <P_child_class_id>76</P_child_class_id>
-        <P_is_root_node>true</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds>
-          <int>4519</int>
-        </PropertyFilterIds>
-        <AttributeFilterIds />
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Timeslices</ItemName>
-      <ActiveTab>Membership</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>CollectionItem_ObjectTree</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Timeslices</ItemName>
-          <ItemKey>726</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems>
-        <int>4519</int>
-      </PropertyTreeSelectedItems>
-      <ObjectTreeItemType>CollectionItem_ObjectTree</ObjectTreeItemType>
-      <ObjectTreeItemID>726</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_folder_open.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>0</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>0</O_collection_id>
-        <O_class_id>0</O_class_id>
-        <O_class_group_id>11</O_class_group_id>
-        <M_parent_class_id>0</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>0</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>0</P_parent_class_id>
-        <P_collection_id>0</P_collection_id>
-        <P_child_class_id>0</P_child_class_id>
-        <P_is_root_node>false</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds />
-        <AttributeFilterIds />
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Data</ItemName>
-      <ActiveTab>Property</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>ClassGroupItem</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Data</ItemName>
-          <ItemKey>11</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems />
-      <ObjectTreeItemType>ClassGroupItem</ObjectTreeItemType>
-      <ObjectTreeItemID>11</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_folder_open.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>0</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>0</O_collection_id>
-        <O_class_id>0</O_class_id>
-        <O_class_group_id>11</O_class_group_id>
-        <M_parent_class_id>0</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>0</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>0</P_parent_class_id>
-        <P_collection_id>0</P_collection_id>
-        <P_child_class_id>0</P_child_class_id>
-        <P_is_root_node>false</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds />
-        <AttributeFilterIds />
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Data</ItemName>
-      <ActiveTab>Object</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>ClassGroupItem</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Data</ItemName>
-          <ItemKey>11</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems />
-      <ObjectTreeItemType>ClassGroupItem</ObjectTreeItemType>
-      <ObjectTreeItemID>11</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_folder_open.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>0</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>0</O_collection_id>
-        <O_class_id>0</O_class_id>
-        <O_class_group_id>11</O_class_group_id>
-        <M_parent_class_id>0</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>0</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>0</P_parent_class_id>
-        <P_collection_id>0</P_collection_id>
-        <P_child_class_id>0</P_child_class_id>
-        <P_is_root_node>false</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds />
-        <AttributeFilterIds />
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Data</ItemName>
-      <ActiveTab>Membership</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>ClassGroupItem</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Data</ItemName>
-          <ItemKey>11</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems />
-      <ObjectTreeItemType>ClassGroupItem</ObjectTreeItemType>
-      <ObjectTreeItemID>11</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Scenario.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>76</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>730</O_collection_id>
-        <O_class_id>78</O_class_id>
-        <O_class_group_id>11</O_class_group_id>
-        <M_parent_class_id>78</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>76</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>1</P_parent_class_id>
-        <P_collection_id>730</P_collection_id>
-        <P_child_class_id>78</P_child_class_id>
-        <P_is_root_node>true</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds />
-        <AttributeFilterIds>
-          <int>84</int>
-          <int>85</int>
-        </AttributeFilterIds>
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Shadow_Price_15</ItemName>
-      <ActiveTab>Membership</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Shadow_Price_15</ItemName>
-          <ItemKey>76</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems>
-        <int>84</int>
-        <int>85</int>
-      </PropertyTreeSelectedItems>
-      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
-      <ObjectTreeItemID>76</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Timeslice.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>65</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>726</O_collection_id>
-        <O_class_id>76</O_class_id>
-        <O_class_group_id>11</O_class_group_id>
-        <M_parent_class_id>76</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>65</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>1</P_parent_class_id>
-        <P_collection_id>726</P_collection_id>
-        <P_child_class_id>76</P_child_class_id>
-        <P_is_root_node>true</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds>
-          <int>4519</int>
-        </PropertyFilterIds>
-        <AttributeFilterIds />
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Summer</ItemName>
-      <ActiveTab>Object</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Summer</ItemName>
-          <ItemKey>65</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems>
-        <int>4519</int>
-      </PropertyTreeSelectedItems>
-      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
-      <ObjectTreeItemID>65</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Timeslice.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>66</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>726</O_collection_id>
-        <O_class_id>76</O_class_id>
-        <O_class_group_id>11</O_class_group_id>
-        <M_parent_class_id>76</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>66</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>1</P_parent_class_id>
-        <P_collection_id>726</P_collection_id>
-        <P_child_class_id>76</P_child_class_id>
-        <P_is_root_node>true</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds>
-          <int>4519</int>
-        </PropertyFilterIds>
-        <AttributeFilterIds />
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Winter</ItemName>
-      <ActiveTab>Membership</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Winter</ItemName>
-          <ItemKey>66</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems>
-        <int>4519</int>
-      </PropertyTreeSelectedItems>
-      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
-      <ObjectTreeItemID>66</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Timeslice.png</IconSource>
-      <IsPinned>false</IsPinned>
-      <ItemFilterInfo>
-        <O_object_id>65</O_object_id>
-        <O_category_id>0</O_category_id>
-        <O_collection_id>726</O_collection_id>
-        <O_class_id>76</O_class_id>
-        <O_class_group_id>11</O_class_group_id>
-        <M_parent_class_id>76</M_parent_class_id>
-        <M_parent_category_id>0</M_parent_category_id>
-        <M_parent_object_id>65</M_parent_object_id>
-        <M_collection_id>0</M_collection_id>
-        <M_child_class_id>0</M_child_class_id>
-        <M_child_category_id>0</M_child_category_id>
-        <M_child_object_id>0</M_child_object_id>
-        <M_is_complement>false</M_is_complement>
-        <P_parent_class_id>1</P_parent_class_id>
-        <P_collection_id>726</P_collection_id>
-        <P_child_class_id>76</P_child_class_id>
-        <P_is_root_node>true</P_is_root_node>
-        <ListFilterObjectIds />
-        <PersistentListFilterObjectIds />
-        <MembershipFilterObjectIds />
-        <PropertyFilterIds>
-          <int>4519</int>
-        </PropertyFilterIds>
-        <AttributeFilterIds />
-        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
-      </ItemFilterInfo>
-      <ItemName>Summer</ItemName>
-      <ActiveTab>Membership</ActiveTab>
-      <IsFiltered>false</IsFiltered>
-      <IsNotFilter>false</IsNotFilter>
-      <ObjectTree>tvSys</ObjectTree>
-      <DBNavItems>
-        <DBNavItem>
-          <ItemType>Object</ItemType>
-          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
-          <ItemTreeSource>tvSys</ItemTreeSource>
-          <ItemName>Summer</ItemName>
-          <ItemKey>65</ItemKey>
-        </DBNavItem>
-      </DBNavItems>
-      <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>0</ActiveWinTab>
-      <PropertyTreeSelectedItems>
-        <int>4519</int>
-      </PropertyTreeSelectedItems>
-      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
-      <ObjectTreeItemID>65</ObjectTreeItemID>
-      <TaggedIndex>0</TaggedIndex>
-      <TreeSource>tvSys</TreeSource>
-    </DatabaseNavigationItem>
-    <DatabaseNavigationItem>
-      <IsExpanded>false</IsExpanded>
-      <IsSelected>false</IsSelected>
-      <DBItemActions />
-      <IsChecked>false</IsChecked>
-      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Model.png</IconSource>
-      <IsPinned>false</IsPinned>
       <ItemFilterInfo>
         <O_object_id>44</O_object_id>
         <O_category_id>0</O_category_id>
@@ -1255,13 +740,14 @@
           <int>97</int>
         </AttributeFilterIds>
         <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-        <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
       </ItemFilterInfo>
       <ItemName>Test</ItemName>
-      <ActiveTab>Membership</ActiveTab>
+      <ActiveTab>Object</ActiveTab>
       <IsFiltered>false</IsFiltered>
       <IsNotFilter>false</IsNotFilter>
       <ObjectTree>tvSim</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Model.png</IconSource>
       <DBNavItems>
         <DBNavItem>
           <ItemType>Object</ItemType>
@@ -1271,48 +757,476 @@
           <ItemKey>44</ItemKey>
         </DBNavItem>
       </DBNavItems>
+      <DBItemActions />
       <ActiveWin>None</ActiveWin>
-      <ActiveWinTab>1</ActiveWinTab>
+      <ActiveWinTab>0</ActiveWinTab>
       <PropertyTreeSelectedItems>
-        <int>84</int>
-        <int>85</int>
+        <int>1</int>
+        <int>3</int>
+        <int>50</int>
+        <int>51</int>
+        <int>52</int>
+        <int>55</int>
+        <int>57</int>
+        <int>62</int>
+        <int>82</int>
+        <int>155</int>
+        <int>9</int>
+        <int>180</int>
       </PropertyTreeSelectedItems>
       <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
       <ObjectTreeItemID>44</ObjectTreeItemID>
       <TaggedIndex>0</TaggedIndex>
       <TreeSource>tvSim</TreeSource>
     </DatabaseNavigationItem>
-  </RecentList>
-  <CurrRecentItem>
-    <IsExpanded>false</IsExpanded>
-    <IsSelected>true</IsSelected>
-    <DBItemActions />
-    <IsChecked>false</IsChecked>
-    <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Model.png</IconSource>
-    <IsPinned>false</IsPinned>
-    <ItemFilterInfo>
-      <O_object_id>78</O_object_id>
-      <O_category_id>0</O_category_id>
-      <O_collection_id>737</O_collection_id>
-      <O_class_id>80</O_class_id>
-      <O_class_group_id>12</O_class_group_id>
-      <M_parent_class_id>80</M_parent_class_id>
-      <M_parent_category_id>0</M_parent_category_id>
-      <M_parent_object_id>78</M_parent_object_id>
-      <M_collection_id>0</M_collection_id>
-      <M_child_class_id>0</M_child_class_id>
-      <M_child_category_id>0</M_child_category_id>
-      <M_child_object_id>0</M_child_object_id>
-      <M_is_complement>false</M_is_complement>
-      <P_parent_class_id>1</P_parent_class_id>
-      <P_collection_id>737</P_collection_id>
-      <P_child_class_id>80</P_child_class_id>
-      <P_is_root_node>true</P_is_root_node>
-      <ListFilterObjectIds />
-      <PersistentListFilterObjectIds />
-      <MembershipFilterObjectIds />
-      <PropertyFilterIds />
-      <AttributeFilterIds>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>44</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>737</O_collection_id>
+        <O_class_id>80</O_class_id>
+        <O_class_group_id>12</O_class_group_id>
+        <M_parent_class_id>80</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>44</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>737</P_collection_id>
+        <P_child_class_id>80</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds />
+        <AttributeFilterIds>
+          <int>86</int>
+          <int>87</int>
+          <int>88</int>
+          <int>89</int>
+          <int>90</int>
+          <int>91</int>
+          <int>92</int>
+          <int>93</int>
+          <int>94</int>
+          <int>95</int>
+          <int>96</int>
+          <int>97</int>
+        </AttributeFilterIds>
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>Test</ItemName>
+      <ActiveTab>Membership</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSim</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Model.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSim</ItemTreeSource>
+          <ItemName>Test</ItemName>
+          <ItemKey>44</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
+        <int>1</int>
+        <int>3</int>
+        <int>50</int>
+        <int>51</int>
+        <int>52</int>
+        <int>55</int>
+        <int>57</int>
+        <int>62</int>
+        <int>82</int>
+        <int>155</int>
+        <int>9</int>
+        <int>180</int>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>44</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSim</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>31</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>1</O_collection_id>
+        <O_class_id>2</O_class_id>
+        <O_class_group_id>2</O_class_group_id>
+        <M_parent_class_id>2</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>31</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>1</P_collection_id>
+        <P_child_class_id>2</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>50</int>
+          <int>51</int>
+          <int>52</int>
+          <int>55</int>
+          <int>57</int>
+          <int>62</int>
+          <int>82</int>
+          <int>155</int>
+          <int>186</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds />
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>Hydroelectric</ItemName>
+      <ActiveTab>Membership</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Generator.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>Hydroelectric</ItemName>
+          <ItemKey>31</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
+        <int>1</int>
+        <int>3</int>
+        <int>50</int>
+        <int>51</int>
+        <int>52</int>
+        <int>55</int>
+        <int>57</int>
+        <int>62</int>
+        <int>82</int>
+        <int>155</int>
+        <int>9</int>
+        <int>180</int>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>31</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSys</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>31</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>1</O_collection_id>
+        <O_class_id>2</O_class_id>
+        <O_class_group_id>2</O_class_group_id>
+        <M_parent_class_id>2</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>31</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>1</P_collection_id>
+        <P_child_class_id>2</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>50</int>
+          <int>51</int>
+          <int>52</int>
+          <int>55</int>
+          <int>57</int>
+          <int>62</int>
+          <int>82</int>
+          <int>155</int>
+          <int>180</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds />
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>Hydroelectric</ItemName>
+      <ActiveTab>Property</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Generator.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>Hydroelectric</ItemName>
+          <ItemKey>31</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
+        <int>1</int>
+        <int>3</int>
+        <int>50</int>
+        <int>51</int>
+        <int>52</int>
+        <int>55</int>
+        <int>57</int>
+        <int>62</int>
+        <int>82</int>
+        <int>155</int>
+        <int>9</int>
+        <int>180</int>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>31</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSys</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>30</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>1</O_collection_id>
+        <O_class_id>2</O_class_id>
+        <O_class_group_id>2</O_class_group_id>
+        <M_parent_class_id>2</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>30</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>1</P_collection_id>
+        <P_child_class_id>2</P_child_class_id>
+        <P_is_root_node>false</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>50</int>
+          <int>51</int>
+          <int>52</int>
+          <int>55</int>
+          <int>57</int>
+          <int>62</int>
+          <int>82</int>
+          <int>155</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds />
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>Production</ItemName>
+      <ActiveTab>Property</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_folder_open.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>Wind</ItemName>
+          <ItemKey>30</ItemKey>
+        </DBNavItem>
+        <DBNavItem>
+          <ItemType>Property</ItemType>
+          <ItemTypeName>PropertyGroupItem</ItemTypeName>
+          <ItemTreeSource>tvProps</ItemTreeSource>
+          <ItemName>Production</ItemName>
+          <ItemKey>3</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
+        <int>1</int>
+        <int>3</int>
+        <int>50</int>
+        <int>51</int>
+        <int>52</int>
+        <int>55</int>
+        <int>57</int>
+        <int>62</int>
+        <int>82</int>
+        <int>155</int>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>30</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvProps</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>30</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>1</O_collection_id>
+        <O_class_id>2</O_class_id>
+        <O_class_group_id>2</O_class_group_id>
+        <M_parent_class_id>2</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>30</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>1</P_collection_id>
+        <P_child_class_id>2</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>50</int>
+          <int>51</int>
+          <int>52</int>
+          <int>55</int>
+          <int>57</int>
+          <int>62</int>
+          <int>82</int>
+          <int>155</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds />
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>Wind</ItemName>
+      <ActiveTab>Property</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Generator.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>Wind</ItemName>
+          <ItemKey>30</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
+        <int>1</int>
+        <int>3</int>
+        <int>50</int>
+        <int>51</int>
+        <int>52</int>
+        <int>55</int>
+        <int>57</int>
+        <int>62</int>
+        <int>82</int>
+        <int>155</int>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>30</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSys</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>80</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>718</O_collection_id>
+        <O_class_id>74</O_class_id>
+        <O_class_group_id>11</O_class_group_id>
+        <M_parent_class_id>74</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>80</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>718</P_collection_id>
+        <P_child_class_id>74</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>4450</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds>
+          <int>61</int>
+        </AttributeFilterIds>
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>Wind</ItemName>
+      <ActiveTab>Membership</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_DataFile.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>Wind</ItemName>
+          <ItemKey>80</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
         <int>86</int>
         <int>87</int>
         <int>88</int>
@@ -1325,24 +1239,284 @@
         <int>95</int>
         <int>96</int>
         <int>97</int>
-      </AttributeFilterIds>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>80</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSys</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>80</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>718</O_collection_id>
+        <O_class_id>74</O_class_id>
+        <O_class_group_id>11</O_class_group_id>
+        <M_parent_class_id>74</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>80</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>718</P_collection_id>
+        <P_child_class_id>74</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>4450</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds>
+          <int>61</int>
+        </AttributeFilterIds>
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>Wind</ItemName>
+      <ActiveTab>Object</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_DataFile.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>Wind</ItemName>
+          <ItemKey>80</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
+        <int>61</int>
+        <int>4450</int>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>80</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSys</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>30</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>1</O_collection_id>
+        <O_class_id>2</O_class_id>
+        <O_class_group_id>2</O_class_group_id>
+        <M_parent_class_id>2</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>30</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>1</P_collection_id>
+        <P_child_class_id>2</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>50</int>
+          <int>51</int>
+          <int>52</int>
+          <int>55</int>
+          <int>57</int>
+          <int>62</int>
+          <int>82</int>
+          <int>155</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds />
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>Wind</ItemName>
+      <ActiveTab>Object</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Generator.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>Wind</ItemName>
+          <ItemKey>30</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
+        <int>1</int>
+        <int>3</int>
+        <int>50</int>
+        <int>51</int>
+        <int>52</int>
+        <int>55</int>
+        <int>57</int>
+        <int>62</int>
+        <int>82</int>
+        <int>155</int>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>30</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSys</TreeSource>
+    </DatabaseNavigationItem>
+    <DatabaseNavigationItem>
+      <IsExpanded>false</IsExpanded>
+      <IsSelected>false</IsSelected>
+      <IsPinned>false</IsPinned>
+      <IsChecked>false</IsChecked>
+      <ItemFilterInfo>
+        <O_object_id>20</O_object_id>
+        <O_category_id>0</O_category_id>
+        <O_collection_id>1</O_collection_id>
+        <O_class_id>2</O_class_id>
+        <O_class_group_id>2</O_class_group_id>
+        <M_parent_class_id>2</M_parent_class_id>
+        <M_parent_category_id>0</M_parent_category_id>
+        <M_parent_object_id>20</M_parent_object_id>
+        <M_collection_id>0</M_collection_id>
+        <M_child_class_id>0</M_child_class_id>
+        <M_child_category_id>0</M_child_category_id>
+        <M_child_object_id>0</M_child_object_id>
+        <M_is_complement>false</M_is_complement>
+        <P_parent_class_id>1</P_parent_class_id>
+        <P_collection_id>1</P_collection_id>
+        <P_child_class_id>2</P_child_class_id>
+        <P_is_root_node>true</P_is_root_node>
+        <ListFilterObjectIds />
+        <PersistentListFilterObjectIds />
+        <MembershipFilterObjectIds />
+        <PropertyFilterIds>
+          <int>50</int>
+          <int>51</int>
+          <int>52</int>
+          <int>55</int>
+          <int>57</int>
+          <int>62</int>
+          <int>82</int>
+          <int>155</int>
+          <int>180</int>
+        </PropertyFilterIds>
+        <AttributeFilterIds />
+        <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
+        <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
+      </ItemFilterInfo>
+      <ItemName>Vapor</ItemName>
+      <ActiveTab>Object</ActiveTab>
+      <IsFiltered>false</IsFiltered>
+      <IsNotFilter>false</IsNotFilter>
+      <ObjectTree>tvSys</ObjectTree>
+      <IconSource>/PLEXOSCommon;Component/Artwork/32/class_Generator.png</IconSource>
+      <DBNavItems>
+        <DBNavItem>
+          <ItemType>Object</ItemType>
+          <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
+          <ItemTreeSource>tvSys</ItemTreeSource>
+          <ItemName>Vapor</ItemName>
+          <ItemKey>20</ItemKey>
+        </DBNavItem>
+      </DBNavItems>
+      <DBItemActions />
+      <ActiveWin>None</ActiveWin>
+      <ActiveWinTab>0</ActiveWinTab>
+      <PropertyTreeSelectedItems>
+        <int>1</int>
+        <int>3</int>
+        <int>50</int>
+        <int>51</int>
+        <int>52</int>
+        <int>55</int>
+        <int>57</int>
+        <int>62</int>
+        <int>82</int>
+        <int>155</int>
+        <int>9</int>
+        <int>180</int>
+      </PropertyTreeSelectedItems>
+      <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
+      <ObjectTreeItemID>20</ObjectTreeItemID>
+      <TaggedIndex>0</TaggedIndex>
+      <TreeSource>tvSys</TreeSource>
+    </DatabaseNavigationItem>
+  </RecentList>
+  <CurrRecentItem>
+    <IsExpanded>false</IsExpanded>
+    <IsSelected>true</IsSelected>
+    <IsPinned>false</IsPinned>
+    <IsChecked>false</IsChecked>
+    <ItemFilterInfo>
+      <O_object_id>31</O_object_id>
+      <O_category_id>0</O_category_id>
+      <O_collection_id>1</O_collection_id>
+      <O_class_id>2</O_class_id>
+      <O_class_group_id>2</O_class_group_id>
+      <M_parent_class_id>2</M_parent_class_id>
+      <M_parent_category_id>0</M_parent_category_id>
+      <M_parent_object_id>31</M_parent_object_id>
+      <M_collection_id>0</M_collection_id>
+      <M_child_class_id>0</M_child_class_id>
+      <M_child_category_id>0</M_child_category_id>
+      <M_child_object_id>0</M_child_object_id>
+      <M_is_complement>false</M_is_complement>
+      <P_parent_class_id>1</P_parent_class_id>
+      <P_collection_id>1</P_collection_id>
+      <P_child_class_id>2</P_child_class_id>
+      <P_is_root_node>false</P_is_root_node>
+      <ListFilterObjectIds />
+      <PersistentListFilterObjectIds />
+      <MembershipFilterObjectIds />
+      <PropertyFilterIds>
+        <int>180</int>
+      </PropertyFilterIds>
+      <AttributeFilterIds />
       <PropertyFilter_SkipGrids>false</PropertyFilter_SkipGrids>
-      <Owner>8fdec40e-1796-4759-ba35-d8701d0f7ca5</Owner>
+      <Owner>8bc0c5aa-0515-4b03-a0a5-0199dba26791</Owner>
     </ItemFilterInfo>
-    <ItemName>Test_Shawdow</ItemName>
+    <ItemName>Max Energy Month</ItemName>
     <ActiveTab>Property</ActiveTab>
     <IsFiltered>false</IsFiltered>
     <IsNotFilter>false</IsNotFilter>
-    <ObjectTree>tvSim</ObjectTree>
+    <ObjectTree>tvSys</ObjectTree>
+    <IconSource>/PLEXOSCommon;Component/Artwork/32/class_dynamic_off.png</IconSource>
     <DBNavItems>
       <DBNavItem>
         <ItemType>Object</ItemType>
         <ItemTypeName>ObjectItem_ObjectTree</ItemTypeName>
-        <ItemTreeSource>tvSim</ItemTreeSource>
-        <ItemName>Test_Shawdow</ItemName>
-        <ItemKey>78</ItemKey>
+        <ItemTreeSource>tvSys</ItemTreeSource>
+        <ItemName>Hydroelectric</ItemName>
+        <ItemKey>31</ItemKey>
+      </DBNavItem>
+      <DBNavItem>
+        <ItemType>Property</ItemType>
+        <ItemTypeName>PropertyItem</ItemTypeName>
+        <ItemTreeSource>tvProps</ItemTreeSource>
+        <ItemName>Max Energy Month</ItemName>
+        <ItemKey>180</ItemKey>
       </DBNavItem>
     </DBNavItems>
+    <DBItemActions />
     <ActiveWin>None</ActiveWin>
     <ActiveWinTab>0</ActiveWinTab>
     <PropertyTreeSelectedItems>
@@ -1360,9 +1534,9 @@
       <int>97</int>
     </PropertyTreeSelectedItems>
     <ObjectTreeItemType>ObjectItem_ObjectTree</ObjectTreeItemType>
-    <ObjectTreeItemID>78</ObjectTreeItemID>
+    <ObjectTreeItemID>31</ObjectTreeItemID>
     <TaggedIndex>0</TaggedIndex>
-    <TreeSource>tvSim</TreeSource>
+    <TreeSource>tvProps</TreeSource>
   </CurrRecentItem>
   <DockLayout>77u/PFh0cmFTZXJpYWxpemVyIHZlcnNpb249IjEuMCIgYXBwbGljYXRpb249IkRvY2tMYXlvdXRNYW5hZ2VyIj4NCiAgPHByb3BlcnR5IG5hbWU9IiNMYXlvdXRWZXJzaW9uIiBpc251bGw9InRydWUiIC8+DQogIDxwcm9wZXJ0eSBuYW1lPSIkRG9ja0xheW91dE1hbmFnZXIiIGlza2V5PSJ0cnVlIiB2YWx1ZT0iRG9ja0xheW91dE1hbmFnZXIiPg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJBbGxvd0N1c3RvbWl6YXRpb24iPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICA8cHJvcGVydHkgbmFtZT0iQ2xvc2VkUGFuZWxzQmFyVmlzaWJpbGl0eSI+TmV2ZXI8L3Byb3BlcnR5Pg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJJdGVtcyIgaXNrZXk9InRydWUiIHZhbHVlPSI3Ij4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJJdGVtMSIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSI+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJEZXN0cm95T25DbG9zaW5nQ2hpbGRyZW4iPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlNlcmlhbGl6YWJsZVNlbGVjdGVkVGFiUGFnZUluZGV4Ij4tMTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTZXJpYWxpemFibGVEb2NrU2l0dWF0aW9uIiBpc2tleT0idHJ1ZSIgdmFsdWU9IjAiIC8+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTZXJpYWxpemF0aW9uSW5mbyIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSI+DQogICAgICAgICAgPHByb3BlcnR5IG5hbWU9IklzVXNlckRlZmluZWQiPnRydWU8L3Byb3BlcnR5Pg0KICAgICAgICA8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iU2hvd0NhcHRpb24iPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlR5cGVOYW1lIj5MYXlvdXRHcm91cDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJQYXJlbnROYW1lIiBpc251bGw9InRydWUiIC8+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJQYXJlbnRDb2xsZWN0aW9uTmFtZSIgaXNudWxsPSJ0cnVlIiAvPg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iTmFtZSI+TEc8L3Byb3BlcnR5Pg0KICAgICAgPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJJdGVtMiIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSI+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJNRElTdHlsZSI+TURJPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkFsbG93U3BsaXR0ZXJzIj50cnVlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkRlc3Ryb3lPbkNsb3NpbmdDaGlsZHJlbiI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iU2VyaWFsaXphYmxlU2VsZWN0ZWRUYWJQYWdlSW5kZXgiPjA8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iQWxsb3dIaWRlIj5mYWxzZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTZXJpYWxpemFibGVEb2NrU2l0dWF0aW9uIiBpc2tleT0idHJ1ZSIgdmFsdWU9IjAiIC8+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTZXJpYWxpemF0aW9uSW5mbyIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSI+DQogICAgICAgICAgPHByb3BlcnR5IG5hbWU9IklzVXNlckRlZmluZWQiPnRydWU8L3Byb3BlcnR5Pg0KICAgICAgICA8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iVHlwZU5hbWUiPkRvY3VtZW50R3JvdXA8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iUGFyZW50TmFtZSI+TEc8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iUGFyZW50Q29sbGVjdGlvbk5hbWUiIGlzbnVsbD0idHJ1ZSIgLz4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9Ik5hbWUiPkRvY3VtZW50Q29udGFpbmVyPC9wcm9wZXJ0eT4NCiAgICAgIDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iSXRlbTMiIGlzbnVsbD0idHJ1ZSIgaXNrZXk9InRydWUiPg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iTURJTG9jYXRpb24iPjAsMDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJNRElTaXplIj5OYU4sTmFOPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9Ik1ESVN0YXRlIj5NYXhpbWl6ZWQ8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iU2VyaWFsaXphYmxlRmxvYXRpbmdCb3VuZHMiPjAsMCwwLDA8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iU2VyaWFsaXphYmxlRmxvYXRpbmdPZmZzZXQiPjAsMDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTaG93TWF4aW1pemVCdXR0b24iPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlNob3dNaW5pbWl6ZUJ1dHRvbiI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iU2hvd1Jlc3RvcmVCdXR0b24iPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkFsbG93QWN0aXZhdGUiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkFsbG93Q2xvc2UiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkFsbG93U2l6aW5nIj5mYWxzZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJJc0FjdGl2ZSI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iU2VyaWFsaXphYmxlRG9ja1NpdHVhdGlvbiIgaXNrZXk9InRydWUiIHZhbHVlPSIwIiAvPg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iU2VyaWFsaXphdGlvbkluZm8iIGlzbnVsbD0idHJ1ZSIgaXNrZXk9InRydWUiIC8+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTaG93Q2xvc2VCdXR0b24iPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlNob3dDb250cm9sQm94Ij5mYWxzZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJUeXBlTmFtZSI+RG9jdW1lbnRQYW5lbDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJQYXJlbnROYW1lIj5Eb2N1bWVudENvbnRhaW5lcjwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJQYXJlbnRDb2xsZWN0aW9uTmFtZSIgaXNudWxsPSJ0cnVlIiAvPg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iRG9jdW1lbnRQYW5lbC5SZXN0b3JlQm91bmRzIiBPd25lclR5cGU9IkRldkV4cHJlc3MuWHBmLkRvY2tpbmcuRG9jdW1lbnRQYW5lbCIgRGVwZW5kZW5jeVByb3BlcnR5VHlwZT0iU3lzdGVtLldpbmRvd3MuUmVjdCI+MCwwLE5hTixOYU48L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iTmFtZSI+RG9jdW1lbnRQYW5lbDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTZXJpYWxpemFibGVNRElCb3VuZHMiPjAsMCxOYU4sTmFOPC9wcm9wZXJ0eT4NCiAgICAgIDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iSXRlbTQiIGlzbnVsbD0idHJ1ZSIgaXNrZXk9InRydWUiPg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iQWxsb3dEb2NrVG9Eb2N1bWVudEdyb3VwIj50cnVlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlNlcmlhbGl6YWJsZUZsb2F0aW5nQm91bmRzIj4wLDAsMCwwPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlNlcmlhbGl6YWJsZUZsb2F0aW5nT2Zmc2V0Ij4wLDA8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iSGVhZGVyQmFyQ29udGFpbmVyQ29udHJvbE5hbWUiPnBhbmVsQmFyUGxleG9zQ2xvdWRDb250YWluZXI8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iQWxsb3dDbG9zZSI+dHJ1ZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJJdGVtV2lkdGgiPjQ1MDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJQYWRkaW5nIj4yLDIsMiwyPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlNlcmlhbGl6YWJsZURvY2tTaXR1YXRpb24iIGlza2V5PSJ0cnVlIiB2YWx1ZT0iMSI+DQogICAgICAgICAgPHByb3BlcnR5IG5hbWU9Ikl0ZW0xIiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJEb2NrU3RhdGUiPkRvY2tlZDwvcHJvcGVydHk+DQogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iUGFyZW50TmFtZSI+TEc8L3Byb3BlcnR5Pg0KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9Ik93bmVyTmFtZSI+UGFuZWxQbGV4b3NDbG91ZDwvcHJvcGVydHk+DQogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iSW5kZXgiPjI8L3Byb3BlcnR5Pg0KICAgICAgICAgIDwvcHJvcGVydHk+DQogICAgICAgIDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTZXJpYWxpemF0aW9uSW5mbyIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSIgLz4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlR5cGVOYW1lIj5MYXlvdXRQYW5lbDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJQYXJlbnROYW1lIiBpc251bGw9InRydWUiIC8+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJQYXJlbnRDb2xsZWN0aW9uTmFtZSI+JENsb3NlZFBhbmVsczwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJOYW1lIj5QYW5lbFBsZXhvc0Nsb3VkPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkNhcHRpb24iIHR5cGU9IlN5c3RlbS5TdHJpbmciPlBMRVhPUyBDbG91ZDwvcHJvcGVydHk+DQogICAgICA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9Ikl0ZW01IiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkFsbG93RG9ja1RvRG9jdW1lbnRHcm91cCI+dHJ1ZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTZXJpYWxpemFibGVGbG9hdGluZ0JvdW5kcyI+MCwwLDAsMDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTZXJpYWxpemFibGVGbG9hdGluZ09mZnNldCI+MCwwPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkhlYWRlckJhckNvbnRhaW5lckNvbnRyb2xOYW1lIj5wYW5lQmFySGlzdENvbnRhaW5lcjwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJBbGxvd0Nsb3NlIj50cnVlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IklzQWN0aXZlIj5mYWxzZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJJdGVtV2lkdGgiPjM1MDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJQYWRkaW5nIj4yLDIsMiwyPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlNlcmlhbGl6YWJsZURvY2tTaXR1YXRpb24iIGlza2V5PSJ0cnVlIiB2YWx1ZT0iMSI+DQogICAgICAgICAgPHByb3BlcnR5IG5hbWU9Ikl0ZW0xIiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJEb2NrU3RhdGUiPkRvY2tlZDwvcHJvcGVydHk+DQogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iUGFyZW50TmFtZSI+TEc8L3Byb3BlcnR5Pg0KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9Ik93bmVyTmFtZSI+UGFuZWxWaWV3SGlzdDwvcHJvcGVydHk+DQogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iSW5kZXgiPjE8L3Byb3BlcnR5Pg0KICAgICAgICAgIDwvcHJvcGVydHk+DQogICAgICAgIDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTZXJpYWxpemF0aW9uSW5mbyIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSIgLz4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlR5cGVOYW1lIj5MYXlvdXRQYW5lbDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJQYXJlbnROYW1lIiBpc251bGw9InRydWUiIC8+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJQYXJlbnRDb2xsZWN0aW9uTmFtZSI+JENsb3NlZFBhbmVsczwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJOYW1lIj5QYW5lbFZpZXdIaXN0PC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9Ik1heFdpZHRoIj41NTA8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iQ2FwdGlvbiIgdHlwZT0iU3lzdGVtLlN0cmluZyI+SGlzdG9yeTwvcHJvcGVydHk+DQogICAgICA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9Ikl0ZW02IiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlNlcmlhbGl6YWJsZUZsb2F0aW5nQm91bmRzIj44MTcuNSwyOTQuNSwyNzcsMjMyPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlNlcmlhbGl6YWJsZUZsb2F0aW5nT2Zmc2V0Ij40LDE4NzwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTaG93TWF4aW1pemVCdXR0b24iPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlNob3dNaW5pbWl6ZUJ1dHRvbiI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iU2hvd1Jlc3RvcmVCdXR0b24iPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkFsbG93QWN0aXZhdGUiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkFsbG93RG9jayI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iQWxsb3dNYXhpbWl6ZSI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iQWxsb3dNaW5pbWl6ZSI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iQWxsb3dSZXN0b3JlIj5mYWxzZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJBbGxvd1NpemluZyI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iSXNBY3RpdmUiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlNlcmlhbGl6YWJsZURvY2tTaXR1YXRpb24iIGlza2V5PSJ0cnVlIiB2YWx1ZT0iMiI+DQogICAgICAgICAgPHByb3BlcnR5IG5hbWU9Ikl0ZW0xIiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJEb2NrU3RhdGUiPkRvY2tlZDwvcHJvcGVydHk+DQogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iUGFyZW50TmFtZSI+RG9jdW1lbnRDb250YWluZXI8L3Byb3BlcnR5Pg0KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9Ik93bmVyTmFtZSI+ZG9ja0l0ZW0xPC9wcm9wZXJ0eT4NCiAgICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJJbmRleCI+MTwvcHJvcGVydHk+DQogICAgICAgICAgPC9wcm9wZXJ0eT4NCiAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iSXRlbTIiIGlzbnVsbD0idHJ1ZSIgaXNrZXk9InRydWUiPg0KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9IkRvY2tTdGF0ZSI+RmxvYXRpbmc8L3Byb3BlcnR5Pg0KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9IlBhcmVudE5hbWUiPmRvY2tJdGVtMjwvcHJvcGVydHk+DQogICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iT3duZXJOYW1lIj5kb2NrSXRlbTE8L3Byb3BlcnR5Pg0KICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9IkluZGV4Ij4wPC9wcm9wZXJ0eT4NCiAgICAgICAgICA8L3Byb3BlcnR5Pg0KICAgICAgICA8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iU2VyaWFsaXphdGlvbkluZm8iIGlzbnVsbD0idHJ1ZSIgaXNrZXk9InRydWUiIC8+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTaG93Q2xvc2VCdXR0b24iPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlR5cGVOYW1lIj5Eb2N1bWVudFBhbmVsPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlBhcmVudE5hbWUiIGlzbnVsbD0idHJ1ZSIgLz4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlBhcmVudENvbGxlY3Rpb25OYW1lIj4kQ2xvc2VkUGFuZWxzPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkRvY3VtZW50R3JvdXAuUGlubmVkIiBPd25lclR5cGU9IkRldkV4cHJlc3MuWHBmLkRvY2tpbmcuRG9jdW1lbnRHcm91cCIgRGVwZW5kZW5jeVByb3BlcnR5VHlwZT0iU3lzdGVtLkJvb2xlYW4iPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9Ik5hbWUiPmRvY2tJdGVtMTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTZXJpYWxpemFibGVNRElCb3VuZHMiPjAsMCxOYU4sTmFOPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkNhcHRpb24iIHR5cGU9IlN5c3RlbS5TdHJpbmciPk5ldyBEYXRhIEZpbGU8L3Byb3BlcnR5Pg0KICAgICAgPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJJdGVtNyIgaXNudWxsPSJ0cnVlIiBpc2tleT0idHJ1ZSI+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJGbG9hdExvY2F0aW9uIj44MTcuNSwyOTQuNTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTZXJpYWxpemFibGVaT3JkZXIiPjA8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iU2hvdWxkUmVzdG9yZU9uQWN0aXZhdGUiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlNlcmlhbGl6YWJsZVNlbGVjdGVkVGFiUGFnZUluZGV4Ij4tMTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJGbG9hdFNpemUiPjI3NywyMzI8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iU2VyaWFsaXphYmxlRG9ja1NpdHVhdGlvbiIgaXNrZXk9InRydWUiIHZhbHVlPSIwIiAvPg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iU2VyaWFsaXphdGlvbkluZm8iIGlzbnVsbD0idHJ1ZSIgaXNrZXk9InRydWUiPg0KICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJGbG9hdE9mZnNldEJlZm9yZUNsb3NlIj40LDE4NzwvcHJvcGVydHk+DQogICAgICAgICAgPHByb3BlcnR5IG5hbWU9IkZsb2F0U3RhdGUiPk5vcm1hbDwvcHJvcGVydHk+DQogICAgICAgICAgPHByb3BlcnR5IG5hbWU9IlByZXZpb3VzRmxvYXRTdGF0ZSI+Tm9ybWFsPC9wcm9wZXJ0eT4NCiAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iV2luZG93UmVzdG9yZUJvdW5kcyI+RW1wdHk8L3Byb3BlcnR5Pg0KICAgICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJJc1VzZXJEZWZpbmVkIj5mYWxzZTwvcHJvcGVydHk+DQogICAgICAgIDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJUeXBlTmFtZSI+RmxvYXRHcm91cDwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJQYXJlbnROYW1lIiBpc251bGw9InRydWUiIC8+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJQYXJlbnRDb2xsZWN0aW9uTmFtZSI+JERlY29tcG9zZWRJdGVtczwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJOYW1lIj5kb2NrSXRlbTI8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iVmlzaWJpbGl0eSI+VmlzaWJsZTwvcHJvcGVydHk+DQogICAgICA8L3Byb3BlcnR5Pg0KICAgIDwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9Ik1hbnVhbENsb3NlZFBhbmVsc0JhclZpc2liaWxpdHkiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgPC9wcm9wZXJ0eT4NCjwvWHRyYVNlcmlhbGl6ZXI+</DockLayout>
   <SearchHistoryList>

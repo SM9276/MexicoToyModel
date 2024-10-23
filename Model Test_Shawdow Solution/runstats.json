@@ -54,11 +54,11 @@
       }
     },
     "PHASE_TIME": {
-      "PASA": "00:00:00.0124156",
-      "ST-Schedule": "00:00:03.0497236"
+      "PASA": "00:00:00.0231477",
+      "ST-Schedule": "00:00:02.9089150"
     },
     "PHASE_PEAK_MEMORY": {
-      "ST Schedule": 240488448
+      "ST Schedule": 238243840
     },
     "MODEL_PROPERTIES": {
       "System.Generators": {
@@ -145,6 +145,6 @@
         "Price": 1
       }
     },
-    "MODEL_COMPLETED_TIME": "00:00:04.8160927"
+    "MODEL_COMPLETED_TIME": "00:00:04.6050786"
   }
 }

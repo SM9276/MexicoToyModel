@@ -162,7 +162,7 @@ Subject To
    + GenMaxEneMonthAct_Hydroelectric{21}
    + GenMaxEneMonthAct_Hydroelectric{22}
    + GenMaxEneMonthAct_Hydroelectric{23}
-   + GenMaxEneMonthAct_Hydroelectric{24} <= 178571.4285714286
+   + GenMaxEneMonthAct_Hydroelectric{24} <= 10714.28571428571
  GenMaxEneMonth_Hydroelectric{3}: <= 0
  GenMaxEneMonth_Hydroelectric{4}: <= 0
  GenMaxEneMonth_Hydroelectric{5}: <= 0
