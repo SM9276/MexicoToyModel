@@ -84,19 +84,19 @@ Minimize
    + 114.22 GenLoad_internal_combustion{21}
    + 114.22 GenLoad_internal_combustion{22}
    + 114.22 GenLoad_internal_combustion{23}
-   + 114.22 GenLoad_internal_combustion{24} + 15.95 GenLoad_Nuclear{1}
-   + 15.95 GenLoad_Nuclear{2} + 15.95 GenLoad_Nuclear{3}
-   + 15.95 GenLoad_Nuclear{4} + 15.95 GenLoad_Nuclear{5}
-   + 15.95 GenLoad_Nuclear{6} + 15.95 GenLoad_Nuclear{7}
-   + 15.95 GenLoad_Nuclear{8} + 15.95 GenLoad_Nuclear{9}
-   + 15.95 GenLoad_Nuclear{10} + 15.95 GenLoad_Nuclear{11}
-   + 15.95 GenLoad_Nuclear{12} + 15.95 GenLoad_Nuclear{13}
-   + 15.95 GenLoad_Nuclear{14} + 15.95 GenLoad_Nuclear{15}
-   + 15.95 GenLoad_Nuclear{16} + 15.95 GenLoad_Nuclear{17}
-   + 15.95 GenLoad_Nuclear{18} + 15.95 GenLoad_Nuclear{19}
-   + 15.95 GenLoad_Nuclear{20} + 15.95 GenLoad_Nuclear{21}
-   + 15.95 GenLoad_Nuclear{22} + 15.95 GenLoad_Nuclear{23}
-   + 15.95 GenLoad_Nuclear{24} + 3 GenLoad_Solar{1} + 3 GenLoad_Solar{2}
+   + 114.22 GenLoad_internal_combustion{24} + 15.62 GenLoad_Nuclear{1}
+   + 15.62 GenLoad_Nuclear{2} + 15.62 GenLoad_Nuclear{3}
+   + 15.62 GenLoad_Nuclear{4} + 15.62 GenLoad_Nuclear{5}
+   + 15.62 GenLoad_Nuclear{6} + 15.62 GenLoad_Nuclear{7}
+   + 15.62 GenLoad_Nuclear{8} + 15.62 GenLoad_Nuclear{9}
+   + 15.62 GenLoad_Nuclear{10} + 15.62 GenLoad_Nuclear{11}
+   + 15.62 GenLoad_Nuclear{12} + 15.62 GenLoad_Nuclear{13}
+   + 15.62 GenLoad_Nuclear{14} + 15.62 GenLoad_Nuclear{15}
+   + 15.62 GenLoad_Nuclear{16} + 15.62 GenLoad_Nuclear{17}
+   + 15.62 GenLoad_Nuclear{18} + 15.62 GenLoad_Nuclear{19}
+   + 15.62 GenLoad_Nuclear{20} + 15.62 GenLoad_Nuclear{21}
+   + 15.62 GenLoad_Nuclear{22} + 15.62 GenLoad_Nuclear{23}
+   + 15.62 GenLoad_Nuclear{24} + 3 GenLoad_Solar{1} + 3 GenLoad_Solar{2}
    + 3 GenLoad_Solar{3} + 3 GenLoad_Solar{4} + 3 GenLoad_Solar{5}
    + 3 GenLoad_Solar{6} + 3 GenLoad_Solar{7} + 3 GenLoad_Solar{8}
    + 3 GenLoad_Solar{9} + 3 GenLoad_Solar{10} + 3 GenLoad_Solar{11}
